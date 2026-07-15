@@ -21,7 +21,9 @@ title: Make the flavour cakes
 
 **Duplicate** your `cake` sprite once for each new flavour, and rename the copies, like `mint cake` and `lemon cake`.
 
-In the **Costumes** tab of each copy, recolour the cakes to match the flavour — yellow for lemon, green for mint. Show a GIF of recolouring here.
+In the **Costumes** tab of each copy, recolour the cakes to match the flavour — yellow for lemon, green for mint.
+
+![The three flavour cakes: chocolate, mint, and lemon.](images/different-cakes.png)
 
 --- /collapse ---
 
@@ -33,6 +35,8 @@ title: Make a flavour chooser
 Create two variables, `counter` and `icing colour`, and **untick** both to hide them.
 
 **Duplicate** a chooser button for the flavours. Set it up to start on chocolate and sit at the top of the stage.
+
+![The icing chooser button costume.](images/icing-chooser.png)
 
 ```blocks3
 when green flag clicked

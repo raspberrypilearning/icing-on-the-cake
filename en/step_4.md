@@ -28,8 +28,6 @@ end
 
 **Test:** Click the green flag and try stamping. Your topping only stamps when the mouse is over the cake.
 
---- tip ---
+**Tip:** If your cake has two main colours, you can check for both by joining two `touching color`{:class="block3sensing"} blocks with an `or`{:class="block3operators"} block.
 
-If your cake has two main colours, you can check for both by joining two `touching color`{:class="block3sensing"} blocks with an `or`{:class="block3operators"} block.
 
---- /tip ---

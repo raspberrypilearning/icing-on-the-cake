@@ -17,7 +17,7 @@ In the costume tab, create your topping. A topping can be anything you like — 
 - or **choose** a sprite from the Scratch library
 
 
-![Choosing a topping sprite in Scratch and renaming it to toppings.](images/choose-topping.gif)
+![Choosing a topping sprite in Scratch and renaming it to toppings.](images/choose-topping.png)
 
 --- /task ---
 
@@ -75,6 +75,27 @@ when green flag clicked
 forever
 go to (mouse-pointer v)
 if <mouse down?> then
+stamp
+end
+end
+```
+
+--- /task ---
+
+--- task ---
+## Add a sound to your stamp. 
+
+Click the **Sounds** tab and choose a sound a click or popping sound from the sound library.
+
+Add a `play sound () until done`{:class="block3sound"} block so it pops each time you stamp.
+
+```blocks3
+when green flag clicked
+erase all
+forever
+go to (mouse-pointer v)
+if <mouse down?> then
++play sound (Pop v) until done
 stamp
 end
 end

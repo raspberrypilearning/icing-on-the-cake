@@ -1,12 +1,12 @@
 ## What you will make
 
-Make your own **cake-decorating simulator**! You will design a cake, then click toppings and icing to decorate it however you like.
+Make your own **cake-decorating simulator**! You will design a cake, then click toppings to decorate it however you like.
 
 You will:
 - stamp toppings onto a cake
 - make buttons to choose different decorations
-- add different cake types and flavours
 - show nice comments as you decorate
+- take on a challenge to add different cake types
 
 --- print-only ---
 
@@ -16,7 +16,7 @@ You will:
 
 --- no-print ---
 
-Try out the finished project. Click the toppings and icing to decorate the cake. Turn your sound on!
+Try out the finished project. Click the toppings and icing to decorate the cake. Turn your sound on 🔊
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1362331451/?autostart=false" frameborder="0"></iframe>

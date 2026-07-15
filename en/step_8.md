@@ -1,33 +1,34 @@
-## Receive and switch costume
+## Add a backdrop and music
 
-In this step, you'll make the `toppings` sprite **switch costume** when it receives each message, so clicking a chooser changes which topping you stamp.
+In this step, you'll add a **backdrop** behind your cake and some **music** that plays while the player decorates.
 
 --- task ---
 
-Select the `toppings` sprite.
+Click the **Stage** in the bottom-right, then hover over **Choose a Backdrop** and pick one you like — or click **Paint** to make your own.
 
-For each topping, add a `when I receive ()`{:class="block3events"} script that `switch costume to ()`{:class="block3looks"} the matching costume.
-
-```blocks3
-when I receive (bow v)
-switch costume to (bow v)
-```
+![Choosing a backdrop for the stage.](images/backdrop.png)
 
 --- /task ---
 
 --- task ---
 
-Add one of these scripts for every topping you made, matching each message to its costume.
+With the **Stage** still selected, click the **Sounds** tab and add a piece of music you like from the sound library.
+
+--- /task ---
+
+--- task ---
+
+Go to the **Code** tab and add this script to the Stage so the music plays on a loop.
 
 ```blocks3
-when I receive (strawberry v)
-switch costume to (strawberry v)
+when green flag clicked
+forever
+play sound (background music v) until done
+end
 ```
 
 --- /task ---
 
-**Test:** Click a chooser to pick a topping, then click on the cake to stamp it. You now have a working cake decorator!
+**Test:** Click the green flag. Your cake now has a backdrop and music playing while you decorate.
 
---- tip ---
-This is a great point to save your project. You can stop here with a simple decorator, or carry on to add cake types, nice comments, and more.
---- /tip ---
+--- save ---
