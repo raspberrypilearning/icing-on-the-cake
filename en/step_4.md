@@ -4,13 +4,15 @@ Right now your topping stamps anywhere you click. In this step, you'll make it s
 
 --- task ---
 
-Select the `toppings` sprite.
+Select the **toppings** sprite.
+
+![The toppings sprite.](images/choose-topping.png)
 
 --- /task ---
 
 --- task ---
 
-On the **Code** add an `if then`{:class="block3control"} block to `mouse down`{:class="block3sensing"} block, and drag the `stamp` into this. 
+In the **Code** tab, add an `if then`{:class="block3control"} block to `mouse down`{:class="block3sensing"} block, and drag the `stamp` into this. 
 
 Click the colour box in the `touching color`{:class="block3sensing"} block, then use the **eyedropper** to pick the main colour from your cake.
 
@@ -25,9 +27,8 @@ end
 
 --- /task ---
 
-
 **Test:** Click the green flag and try stamping. Your topping only stamps when the mouse is over the cake.
 
-**Tip:** If your cake has two main colours, you can check for both by joining two `touching color`{:class="block3sensing"} blocks with an `or`{:class="block3operators"} block.
+**Tip:** If your cake has more than one colour, you can check for both by joining two `touching color`{:class="block3sensing"} blocks with an `or`{:class="block3operators"} block.
 
 

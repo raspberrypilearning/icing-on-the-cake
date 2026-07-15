@@ -1,18 +1,20 @@
 ## Bring it to life
 
-In this step, you'll add a **backdrop** behind your cake and some **music** that plays while the player decorates.
+Add a **backdrop** behind your cake and some **music** that plays while the player decorates.
 
 --- task ---
 
-Click the **Stage** in the bottom-right, then hover over **Choose a Backdrop** and pick one you like — or click **Paint** to make your own.
+Click the **Stage** in the bottom-right, then **Choose a Backdrop** and pick one you like — or click **Paint** to make your own.
 
 ![Choosing a backdrop for the stage.](images/backdrop.png)
+
+**Tip:** Make sure your backdrop is a different colour to your cake, so it doesn't interfere with the `touching color`{:class="block3sensing"} block.
 
 --- /task ---
 
 --- task ---
 
-With the **Stage** still selected, click the **Sounds** tab and add a piece of music you like from the sound library.
+Click the **Sounds** tab and add a piece of loop music you like from the sound library, or upload your own.
 
 --- /task ---
 
@@ -31,4 +33,3 @@ end
 
 **Test:** Click the green flag. Your cake now has a backdrop and music playing while you decorate.
 
---- save ---

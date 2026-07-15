@@ -1,25 +1,12 @@
 ## Make a cake
 
-In this step, you'll add your **cake**.
+In this step, you'll add your **cake** sprite.
 
 --- task ---
 
-Add a new sprite. 
-
---- /task ---
-
---- task ---
-
-In the costume tab, create your cake. A cake can be any shape or colour you like.
+Create a new sprite. In the costume tab, create your cake. A cake can be any shape or colour you like.
 
 ![Choosing a cake sprite in Scratch.](images/choose-cake.png)
-
---- /task ---
-
-
---- task ---
-
-Name the sprite `cake`.
 
 --- /task ---
 
@@ -38,4 +25,4 @@ stamp
 
 **Test:** Click the green flag and see that the cake appears in the middle of the stage.
 
-**Tip:** The `stamp` block still works even though the sprite is hidden, so you only see the stamped picture.
+**Tip:** `Stamping` the cake allows for the toppings to be drawn on top. If using a sprite, the toppings are drawn behind the cake and you can't see them.

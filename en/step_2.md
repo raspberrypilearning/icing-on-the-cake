@@ -10,13 +10,13 @@ Start a new Scratch project.
 
 --- task ---
 
-In the costume tab, delete the cat and create your topping. A topping can be anything you like — sprinkles, a strawberry, a bow, or a candle. 
+In the **costume tab**, delete the cat and create or choose your topping. A topping can be anything you like — sprinkles, a strawberry, a bow, or a candle. 
 
 --- /task ---
 
 --- task ---
 
-Name the sprite `toppings`, because later it will hold lots of different toppings.
+Name the sprite **toppings**, because later it will hold lots of different toppings.
 
 ![Choosing a topping sprite in Scratch and renaming it to toppings.](images/choose-topping.png)
 
@@ -24,7 +24,7 @@ Name the sprite `toppings`, because later it will hold lots of different topping
 
 --- task ---
 
-Make the `toppings` sprite follow the mouse pointer around the stage.
+Make the **toppings** sprite follow the mouse pointer around the stage.
 
 ```blocks3
 when green flag clicked

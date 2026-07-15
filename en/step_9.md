@@ -43,9 +43,9 @@ change y by (-1)
 
 --- task ---
 
-Now give the cake more costumes to switch between. Select the `cake` sprite, and in the **Costumes** tab, **duplicate** your cake costume and change it into different cakes. Keep the main colour the same so your toppings still stamp on them.
+Now give the cake more costumes to switch between. Select the **cake** sprite, and in the **Costumes** tab, **duplicate** your cake costume and change it into different cakes. Keep the main colour the same so your toppings still stamp on them.
 
-![Duplicating the cake costume and editing it into a different cake.](images/different-cakes.png)
+![Duplicating the cake costume and editing it into a different cake.](images/different-cakes.gif)
 
 --- /task ---
 
@@ -57,7 +57,7 @@ Create a variable called `layer type` and **untick** it to hide it. It remembers
 
 --- task ---
 
-On the `cake` sprite, set `layer type` to `1` at the start of its green-flag script.
+On the **cake** sprite, set `layer type` to `1` at the start of its green-flag script.
 
 ```blocks3
 when green flag clicked

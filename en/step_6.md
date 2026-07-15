@@ -1,10 +1,12 @@
 ## Switch between toppings
 
-In this step, you'll make the `toppings` sprite **switch costume** when it receives each message, so clicking a chooser changes which topping you stamp.
+In this step, you'll make your **toppings** switch costume so clicking a chooser changes which topping you stamp.
 
 --- task ---
 
-Select the `toppings` sprite.
+Select the **toppings** sprite.
+
+![The toppings sprite.](images/choose-topping.png)
 
 For each topping, add a `when I receive ()`{:class="block3events"} script that `switch costume to ()`{:class="block3looks"} the matching costume.
 
@@ -28,4 +30,4 @@ switch costume to (strawberry v)
 
 **Test:** Click a chooser to pick a topping, then click on the cake to stamp it. You now have a working cake decorator!
 
-**Tip:** This is a great point to save your project. You can stop here with a simple decorator, or carry on to add cake types, nice comments, and more.
+

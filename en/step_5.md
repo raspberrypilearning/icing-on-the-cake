@@ -1,16 +1,16 @@
 ## Add a chooser button
 
-In this step, you'll make a **chooser** button for a topping and place it at the top of the stage.
+In this step, you'll make a **chooser** button and place it at the top of the stage.
 
 --- task ---
 
-In the `toppings` sprite add a new **costume**. Give your new costume a name, like `bow`, so you can find it later.
+In the **toppings** sprite add a new **costume**. Give your new costume a name, like `bow`, so you can find it later.
 
-![Duplicating a topping costume and editing it into a new topping.](images/second-topping.png)
+![Duplicating a topping costume and editing it into a new topping.](images/second-topping.gif)
 
 --- /task ---
 
-Your `toppings` sprite now has more than one costume to stamp.
+Your **toppings** sprite now has more than one costume to stamp.
 
 --- task ---
 
@@ -32,7 +32,7 @@ go to x: (-135) y: (154)
 
 --- task ---
 
-Add a **broadcast** message when clicked. Drag a `broadcast ()`{:class="block3events"} block onto a `when this sprite clicked`{:class="block3events"} block and make a new message.
+Add a `broadcast`{:class="block3events"} message block onto a `when this sprite clicked`{:class="block3events"} block and make a new message.
 
 ```blocks3
 when this sprite clicked
@@ -45,8 +45,7 @@ broadcast (bow v)
 
 Make the button feel like it is being clicked by moving it and adding sound.
 
-Add the `change y` and `play sound` to your blocks. Choose a sound from the library.
-
+Add the `change y` and `play sound` to your blocks. 
 
 ```blocks3
 when this sprite clicked
@@ -64,13 +63,21 @@ To make a chooser for your other toppings, **duplicate** this sprite, and change
 
 Move it to a different spot along the top and change the `broadcast ()`{:class="block3events"} message to match.
 
+add gif of duplicate
+
 --- /task ---
 
 --- task ---
 
-The topping now follows the mouse everywhere, including over the chooser buttons. Make it **hide** when it's up near the choosers so it doesn't block them.
+new sprite - topping
 
-Select the `toppings` sprite and add an `if then else`{:class="block3control"} block at the end of the `forever`{:class="block3control"} loop: if the `y position`{:class="block3motion"} is above `125`, it hides; otherwise it shows.
+The topping follows curser, and blocks the button. Make it **hide** when it's up near the choosers so it doesn't block them.
+
+Select the **toppings** sprite.
+
+![The toppings sprite.](images/choose-topping.png)
+
+Add an `if then else`{:class="block3control"} block at the end of the `forever`{:class="block3control"} loop: if the `y position`{:class="block3motion"} is above `125`, it hides; otherwise it shows.
 
 ```blocks3
 forever
@@ -91,4 +98,4 @@ end
 
 --- /task ---
 
-**Test:** Click the green flag. Your chooser buttons sit along the top and wobble when clicked, and the topping hides when you move up to them so you can click the buttons.
+**Test:** Click the green flag.The topping hides, and you can click the buttons.
