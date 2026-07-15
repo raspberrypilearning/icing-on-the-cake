@@ -1,16 +1,13 @@
 ## Challenge: a cake for every occasion
-
-You've built a full cake decorator. For a challenge, can you let players switch between different **cake types** — different shapes and styles of cake — with a button?
-
 --- challenge ---
 
-Have a go using what you've already learnt. If you'd like some help, follow the steps below.
+For a challenge, you can let players switch between different **cake types** — layered, wedding or cupcakes. 
 
 --- /challenge ---
 
 --- task ---
 
-Make a cake-type button. **Duplicate** one of your chooser button sprites and change its costume so it looks different from the topping choosers — for example, a small cake symbol.
+**Duplicate** one of your chooser button sprites and change its costume to make a small cake symbol.
 
 ![A cake-type chooser button with its own symbol.](images/cake-type-button.png)
 
@@ -43,7 +40,11 @@ change y by (-1)
 
 --- task ---
 
-Now give the cake more costumes to switch between. Select the **cake** sprite, and in the **Costumes** tab, **duplicate** your cake costume and change it into different cakes. Keep the main colour the same so your toppings still stamp on them.
+Select the **cake** sprite.
+
+![The cake sprite.](images/choose-cake.png)
+
+Now give the cake more costumes to switch between. In the **Costumes** tab, **duplicate** your cake costume and change it into different cakes. Keep the main colour the same so your toppings still stamp on them.
 
 ![Duplicating the cake costume and editing it into a different cake.](images/different-cakes.gif)
 

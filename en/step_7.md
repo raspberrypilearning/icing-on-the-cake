@@ -12,7 +12,7 @@ Add a new sprite for your comments, and make a costume for each message — you 
 
 --- task ---
 
-Click **Make a Variable** and create a variable called `click count`. It counts how many toppings have been stamped.
+Click `Make a Variable`{:class="block3variables"} and create a variable called `click count`{:class="block3variables"}. It counts how many toppings have been stamped.
 
 --- /task ---
 
