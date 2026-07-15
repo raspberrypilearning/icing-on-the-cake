@@ -4,11 +4,9 @@ In this step, you'll make your **toppings** switch costume so clicking a chooser
 
 --- task ---
 
-Select the **toppings** sprite.
-
 ![The toppings sprite.](images/choose-topping.png)
 
-For each topping, add a `when I receive ()`{:class="block3events"} script that `switch costume to ()`{:class="block3looks"} the matching costume.
+In the **toppings** sprite add a `when I receive ()`{:class="block3events"} script that `switch costume to ()`{:class="block3looks"} the matching costume.
 
 ```blocks3
 when I receive (bow v)
