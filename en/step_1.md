@@ -1,45 +1,29 @@
 ## What you will make
-OR
-## What you will do - change meta if you use this
 
-A brief description - one or two sentences. 
+Make your own **cake-decorating simulator**! You will design a cake, then click toppings and icing to decorate it however you like.
+
+You will:
+- stamp toppings onto a cake
+- make buttons to choose different decorations
+- add different cake types and flavours
+- show nice comments as you decorate
 
 --- print-only ---
 
-![ALT TEXT](images/IMAGE.png)
+![A decorated cake in Scratch with sprinkles and icing, and topping buttons along the top of the stage.](images/banner.png)
 
 --- /print-only ---
 
 --- no-print ---
 
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
+Try out the finished project. Click the toppings and icing to decorate the cake. Turn your sound on!
 
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
 <div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
+ <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1362331451/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /no-print ---
 
 ### You will need:
-- a
-- b
-- c
+- the Scratch editor
+- some cake and topping pictures (you can draw your own or use the ones in Scratch)

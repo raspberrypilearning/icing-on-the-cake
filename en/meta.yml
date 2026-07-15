@@ -1,14 +1,27 @@
-title: Project title in sentence case
+title: Icing on the cake
 hero_image: images/banner.png
-description: A short description of the project
+description: Make a cake-decorating simulator in Scratch. Stamp toppings and icing onto a cake, then add cake types, flavours, and encouraging messages.
 listed: false
 pdf: false
 steps:
   - title: What you will make
-  - title: Step title
+  - title: Create a stamp
     completion:
-      - engaged      
-  - title: Challenge
+      - engaged
+  - title: Add the cake
+  - title: Stamp only on the cake
+  - title: Make a second topping
+  - title: Make a topping chooser
+  - title: Only choose above the cake
+  - title: Receive and switch costume
+  - title: Make a cake-type button
+  - title: Make different cakes
+  - title: Stamp the cake types
+  - title: Add nice comments
+  - title: Add a backdrop and music
+    completion:
+      - internal
+  - title: Challenge - make different flavours
     challenge: true
     completion:
       - external
