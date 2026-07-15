@@ -12,7 +12,7 @@ steps:
   - title: Decorate the cake
   - title: Add a chooser button
   - title: Switch between toppings
-  - title: Add encouragement
+  - title: Nice comments
   - title: Add music and a backdrop
     completion:
       - internal

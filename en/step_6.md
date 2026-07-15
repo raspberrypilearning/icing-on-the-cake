@@ -6,7 +6,7 @@ In this step, you'll make your **toppings** switch costume so clicking a chooser
 
 ![The toppings sprite.](images/choose-topping.png)
 
-In the **toppings** sprite add a `when I receive ()`{:class="block3events"} script that `switch costume to ()`{:class="block3looks"} the matching costume.
+In the **toppings** sprite add a `when I receive ()`{:class="block3events"} block that `switch costume to ()`{:class="block3looks"} the matching costume.
 
 ```blocks3
 when I receive (bow v)
@@ -17,7 +17,7 @@ switch costume to (bow v)
 
 --- task ---
 
-Add one of these scripts for every topping you made, matching each message to its costume.
+Add one of these blocks for every topping you made, matching each message to its costume.
 
 ```blocks3
 when I receive (strawberry v)

@@ -58,7 +58,7 @@ Create a variable called `layer type`{:class="block3variables"} and **untick** i
 
 --- task ---
 
-On the **cake** sprite, set `layer type`{:class="block3variables"} to `1` at the start of its green-flag script.
+On the **cake** sprite, set `layer type`{:class="block3variables"} to `1` at the start of its green-flag blocks.
 
 ```blocks3
 when green flag clicked
@@ -72,7 +72,7 @@ stamp
 
 --- task ---
 
-Add a script so that when the cake receives the `layer` message, it switches to the next cake and stamps it.
+Add blocks so that when the cake receives the `layer` message, it switches to the next cake and stamps it.
 
 ```blocks3
 when I receive (layer v)

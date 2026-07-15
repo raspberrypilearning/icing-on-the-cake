@@ -1,4 +1,4 @@
-## Add encouragement
+## Nice comments
 
 In this step, you'll add pop-up **comments** that cheer the player on.
 

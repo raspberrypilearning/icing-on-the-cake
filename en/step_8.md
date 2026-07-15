@@ -20,7 +20,7 @@ Click the **Sounds** tab and add a piece of loop music you like from the sound l
 
 --- task ---
 
-Go to the **Code** tab and add this script to the Stage so the music plays on a loop.
+Go to the **Code** tab and add these blocks to the Stage so the music plays on a loop.
 
 ```blocks3
 when green flag clicked

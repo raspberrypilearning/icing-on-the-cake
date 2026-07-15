@@ -4,7 +4,7 @@ In this step, you'll make your first **topping**.
 
 --- task ---
 
-Start a new Scratch project.
+Start a [new Scratch project](https://scratch.mit.edu/projects/editor/){:target="_blank"}.
 
 --- /task ---
 
@@ -24,7 +24,7 @@ Name the sprite **toppings**, because later it will hold lots of different toppi
 
 --- task ---
 
-Make the **toppings** sprite follow the mouse pointer around the stage.
+Make the sprite follow the cursor around the stage using a `go to (mouse pointer v)`{:class="block3motion"} block.
 
 ```blocks3
 when green flag clicked
