@@ -1,4 +1,4 @@
-## Add a backdrop and music
+## Bring it to life
 
 In this step, you'll add a **backdrop** behind your cake and some **music** that plays while the player decorates.
 

@@ -1,4 +1,4 @@
-## Add the cake
+## Make a cake
 
 In this step, you'll add your **cake**.
 

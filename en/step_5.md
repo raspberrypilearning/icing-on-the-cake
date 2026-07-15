@@ -1,4 +1,4 @@
-## Make a topping chooser
+## Add a chooser button
 
 In this step, you'll make a **chooser** button for a topping and place it at the top of the stage.
 

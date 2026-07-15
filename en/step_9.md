@@ -1,34 +1,33 @@
-## Challenge - make different cake types
+## Challenge: a cake for every occasion
 
-You've built a full cake decorator. For a challenge, can you let the player switch between different **cake types** — different shapes and styles of cake — with a button?
+You've built a full cake decorator. For a challenge, can you let players switch between different **cake types** — different shapes and styles of cake — with a button?
 
 --- challenge ---
 
---- task ---
-
-Can you add a cake-type button that switches between different cakes each time it's clicked?
-
-Here's one way to do it. Work through a bit at a time and test as you go.
-
---- /task ---
+Have a go using what you've already learnt. If you'd like some help, follow the steps below.
 
 --- /challenge ---
 
---- collapse ---
----
-title: Make a cake-type button
----
+--- task ---
 
-**Duplicate** one of your chooser button sprites. Change its costume so it looks different from the topping choosers — for example, a small cake symbol — so players know it changes the cake.
+Make a cake-type button. **Duplicate** one of your chooser button sprites and change its costume so it looks different from the topping choosers — for example, a small cake symbol.
 
 ![A cake-type chooser button with its own symbol.](images/cake-type-button.png)
 
-Move it to a free spot along the top of the stage.
+--- /task ---
+
+--- task ---
+
+Move the button to a free spot along the top of the stage.
 
 ```blocks3
 when green flag clicked
 go to x: (91) y: (149)
 ```
+
+--- /task ---
+
+--- task ---
 
 When it's clicked, broadcast a new `layer` message with the usual press animation.
 
@@ -40,27 +39,23 @@ play sound (Crank v) until done
 change y by (-1)
 ```
 
---- /collapse ---
+--- /task ---
 
---- collapse ---
----
-title: Make different cakes
----
+--- task ---
 
-Select the `cake` sprite and click the **Costumes** tab. Right-click your cake costume and choose **duplicate**, then change the copy into a different cake — a different shape, a taller cake, or a new decoration. Make as many as you like.
+Now give the cake more costumes to switch between. Select the `cake` sprite, and in the **Costumes** tab, **duplicate** your cake costume and change it into different cakes. Keep the main colour the same so your toppings still stamp on them.
 
 ![Duplicating the cake costume and editing it into a different cake.](images/different-cakes.png)
 
-Keep the main colour of every cake costume the **same** as your first cake, or your toppings will stop stamping on it.
+--- /task ---
 
---- /collapse ---
+--- task ---
 
---- collapse ---
----
-title: Stamp the cake types
----
+Create a variable called `layer type` and **untick** it to hide it. It remembers which cake is showing.
 
-Create a variable called `layer type` and **untick** it to hide it. It remembers which cake costume is showing.
+--- /task ---
+
+--- task ---
 
 On the `cake` sprite, set `layer type` to `1` at the start of its green-flag script.
 
@@ -72,7 +67,11 @@ go to x: (0) y: (0)
 stamp
 ```
 
-Then add a script so that when the cake receives the `layer` message, it switches to the next cake and stamps it.
+--- /task ---
+
+--- task ---
+
+Add a script so that when the cake receives the `layer` message, it switches to the next cake and stamps it.
 
 ```blocks3
 when I receive (layer v)
@@ -84,7 +83,7 @@ stamp
 set [layer type v] to (costume [number v])
 ```
 
---- /collapse ---
+--- /task ---
 
 **Test:** Click the green flag, then click your cake-type button. The cake changes to the next one each time.
 

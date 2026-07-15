@@ -2,12 +2,6 @@
 
 Make your own **cake-decorating simulator**! You will design a cake, then click toppings to decorate it however you like.
 
-You will:
-- stamp toppings onto a cake
-- make buttons to choose different decorations
-- show nice comments as you decorate
-- take on a challenge to add different cake types
-
 --- print-only ---
 
 ![A decorated cake in Scratch with sprinkles and icing, and topping buttons along the top of the stage.](images/banner.png)
@@ -23,7 +17,3 @@ Try out the finished project. Click the toppings and icing to decorate the cake.
 </div>
 
 --- /no-print ---
-
-### You will need:
-- the Scratch editor
-- some cake and topping pictures (you can draw your own or use the ones in Scratch)

@@ -1,4 +1,4 @@
-## Stamp only on the cake
+## Decorate the cake
 
 Right now your topping stamps anywhere you click. In this step, you'll make it stamp **only on the cake**.
 

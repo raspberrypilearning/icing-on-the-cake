@@ -1,4 +1,4 @@
-## Receive and switch costume
+## Switch between toppings
 
 In this step, you'll make the `toppings` sprite **switch costume** when it receives each message, so clicking a chooser changes which topping you stamp.
 
