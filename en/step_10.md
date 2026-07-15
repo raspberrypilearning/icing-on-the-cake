@@ -1,6 +1,6 @@
 ## Make different cakes
 
-Your cake-type button needs some different cakes to switch between. In this step, you'll add more **costumes** to the `cake` sprite.
+In this step, you'll add more **costumes** to the `cake` sprite, so the cake-type button has different cakes to switch between.
 
 --- task ---
 
@@ -24,4 +24,4 @@ Keep the main colour of every cake costume the **same** as your first cake. Your
 
 --- /tip ---
 
-Your `cake` sprite now has several cakes to choose between. 🎂🍰
+Your `cake` sprite now has several cakes to choose between.

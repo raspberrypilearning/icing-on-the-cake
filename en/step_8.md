@@ -1,6 +1,6 @@
 ## Receive and switch costume
 
-Your choosers are broadcasting messages, but nothing is listening yet. In this step, you'll make the `toppings` sprite **switch costume** when it receives each message — so clicking a chooser changes which topping you stamp.
+In this step, you'll make the `toppings` sprite **switch costume** when it receives each message, so clicking a chooser changes which topping you stamp.
 
 --- task ---
 
@@ -26,10 +26,8 @@ switch costume to (strawberry v)
 
 --- /task ---
 
-You now have a working cake decorator! Click a chooser to pick a topping, then click on the cake to stamp it. 🎉
+**Test:** Click a chooser to pick a topping, then click on the cake to stamp it. You now have a working cake decorator!
 
 --- tip ---
-
 This is a great point to save your project. You can stop here with a simple decorator, or carry on to add cake types, nice comments, and more.
-
 --- /tip ---

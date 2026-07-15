@@ -112,6 +112,6 @@ Your `toppings` sprite only checks for the first cake's colour. In its stamping 
 
 --- /collapse ---
 
-Test your project. You can now switch flavours and decorate any of them! 🍫🌿🍋
+**Test:** Click the green flag and switch flavours. You can now decorate any of them!
 
 --- save ---

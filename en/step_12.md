@@ -1,6 +1,6 @@
 ## Add nice comments
 
-In this step, you'll add pop-up **nice comments** that cheer the player on as they decorate. A comment appears every so often, after enough stamps.
+In this step, you'll add pop-up **nice comments** that cheer the player on. A comment appears every so often, after enough stamps.
 
 --- task ---
 
@@ -56,4 +56,4 @@ end
 
 --- /task ---
 
-Click the green flag and decorate away. After a while, a nice comment pops up to cheer you on. 💬✨
+**Test:** Click the green flag and decorate. After a while, a nice comment pops up to cheer you on.

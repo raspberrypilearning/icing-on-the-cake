@@ -1,6 +1,6 @@
 ## Make a topping chooser
 
-Players need a way to pick which topping to stamp. In this step, you'll make a **chooser** button for a topping and place it at the top of the stage.
+In this step, you'll make a **chooser** button for a topping and place it at the top of the stage.
 
 --- task ---
 
@@ -62,4 +62,4 @@ Now make a chooser for each of your toppings.
 
 --- /task ---
 
-Click the green flag. Your chooser buttons sit along the top of the stage and wobble with a sound when clicked. 🎀🍓
+**Test:** Click the green flag. Your chooser buttons sit along the top of the stage and wobble with a sound when clicked.

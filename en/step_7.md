@@ -1,6 +1,6 @@
 ## Only choose above the cake
 
-Your topping follows the mouse everywhere — including up over the chooser buttons, where it can get in the way of clicking them. In this step, you'll make the topping **hide** when it's up near the choosers.
+In this step, you'll make the topping **hide** when it's up near the choosers, so it doesn't get in the way of clicking the buttons.
 
 --- task ---
 
@@ -27,4 +27,4 @@ end
 
 --- /task ---
 
-Click the green flag and move the mouse up to the choosers. The topping disappears so you can click the buttons, then reappears over the cake. 👆
+**Test:** Click the green flag and move the mouse up to the choosers. The topping disappears so you can click the buttons, then reappears over the cake.

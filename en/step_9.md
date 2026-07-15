@@ -1,6 +1,6 @@
 ## Make a cake-type button
 
-So far there's one cake. In this step, you'll add a **cake-type** button so players can change the cake itself, not just the toppings. It works just like a topping chooser, but it broadcasts a different message.
+In this step, you'll add a **cake-type** button so players can change the cake itself, not just the toppings. It works just like a topping chooser, but broadcasts a different message.
 
 --- task ---
 
@@ -37,4 +37,4 @@ change y by (-1)
 
 --- /task ---
 
-Click the green flag. Your cake-type button sits along the top with the others and wobbles when clicked. It doesn't change anything yet — you'll make it work next. 🎂
+**Test:** Click the green flag. Your cake-type button sits along the top with the others and wobbles when clicked. It doesn't change anything yet — you'll make it work next.

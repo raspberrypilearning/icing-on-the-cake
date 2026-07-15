@@ -1,6 +1,6 @@
 ## Stamp the cake types
 
-Now you'll make the cake-type button actually work, so clicking it switches to the next cake and stamps it. You'll use a variable to remember which cake is showing.
+In this step, you'll make the cake-type button work, so clicking it switches to the next cake and stamps it.
 
 --- task ---
 
@@ -46,4 +46,4 @@ set [layer type v] to (costume [number v])
 
 --- /info ---
 
-Click the green flag, then click your cake-type button. The cake changes to the next one each time. 🎂➡️🍰
+**Test:** Click the green flag, then click your cake-type button. The cake changes to the next one each time.

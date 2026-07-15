@@ -1,6 +1,6 @@
 ## Add a backdrop and music
 
-Time to set the scene. In this step, you'll add a **backdrop** behind your cake and some **music** that plays while the player decorates.
+In this step, you'll add a **backdrop** behind your cake and some **music** that plays while the player decorates.
 
 --- task ---
 
@@ -29,6 +29,6 @@ end
 
 --- /task ---
 
-Click the green flag. Your cake now has a backdrop and music playing while you decorate. 🎶
+**Test:** Click the green flag. Your cake now has a backdrop and music playing while you decorate.
 
 --- save ---
