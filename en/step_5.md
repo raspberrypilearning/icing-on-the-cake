@@ -45,7 +45,7 @@ broadcast (bow v)
 
 Make the button feel like it is being clicked by moving it and adding sound.
 
-Add the `change y` and `play sound` to your blocks. 
+Add the `change y by ()`{:class="block3motion"} and `play sound () until done`{:class="block3sound"} blocks.
 
 ```blocks3
 when this sprite clicked

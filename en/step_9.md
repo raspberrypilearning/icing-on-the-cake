@@ -52,13 +52,13 @@ Now give the cake more costumes to switch between. In the **Costumes** tab, **du
 
 --- task ---
 
-Create a variable called `layer type` and **untick** it to hide it. It remembers which cake is showing.
+Create a variable called `layer type`{:class="block3variables"} and **untick** it to hide it. It remembers which cake is showing.
 
 --- /task ---
 
 --- task ---
 
-On the **cake** sprite, set `layer type` to `1` at the start of its green-flag script.
+On the **cake** sprite, set `layer type`{:class="block3variables"} to `1` at the start of its green-flag script.
 
 ```blocks3
 when green flag clicked
