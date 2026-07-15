@@ -25,4 +25,4 @@ stamp
 
 **Test:** Click the green flag and see that the cake appears in the middle of the stage.
 
-**Tip:** `Stamping` the cake allows for the toppings to be drawn on top. If using a sprite, the toppings are drawn behind the cake and you can't see them.
+**Tip:** Stamping the cake allows the toppings to be drawn on top. If using a sprite, the toppings are drawn behind the cake and you can't see them.

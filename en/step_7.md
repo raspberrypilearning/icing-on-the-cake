@@ -4,7 +4,11 @@ In this step, you'll add pop-up **comments** that cheer the player on.
 
 --- task ---
 
-Add a new sprite for your comments, and make a costume for each message — you can type words like "So sweet!" or "Yum!", or use pictures.
+Add a new sprite for your comments.
+
+![The comments sprite.](images/nice-comments.png)
+
+Make a costume for each message — you can type words like "So sweet!" or "Yum!", or use pictures.
 
 ![Making costumes for the nice comments, one message per costume.](images/nice-comments.gif)
 
@@ -13,6 +17,8 @@ Add a new sprite for your comments, and make a costume for each message — you 
 --- task ---
 
 Click `Make a Variable`{:class="block3variables"} and create a variable called `click count`{:class="block3variables"}. It counts how many toppings have been stamped.
+
+![Making a variable and unticking it to hide it from the stage.](images/make-variable.png)
 
 --- /task ---
 

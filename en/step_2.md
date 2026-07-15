@@ -41,6 +41,8 @@ Now make it stamp itself whenever you click the mouse.
 
 To use the `stamp` block, click **Add Extension** in the bottom-left corner, then choose **Pen**.
 
+![Adding the Pen extension.](images/pen-extension.gif)
+
 Add an `if then`{:class="block3control"} block inside the `forever`{:class="block3control"} loop that checks `mouse down?`{:class="block3sensing"} and then `stamp`s.
 
 ```blocks3
@@ -76,7 +78,7 @@ end
 
 Add a `play sound () until done`{:class="block3sound"} block so it pops each time you stamp.
 
-Click the **Sounds** tab and choose a sound a sound you think will work from the sound library.
+Click the **Sounds** tab and choose a sound you think will work from the sound library.
 
 ```blocks3
 when green flag clicked

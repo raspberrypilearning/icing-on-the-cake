@@ -12,9 +12,11 @@ Select the **toppings** sprite.
 
 --- task ---
 
-In the **Code** tab, add an `if then`{:class="block3control"} block to `mouse down`{:class="block3sensing"} block, and drag the `stamp` into this. 
+In the **Code** tab, add an `if then`{:class="block3control"} block inside the `mouse down`{:class="block3sensing"} check, and move the `stamp` block inside it.
 
 Click the colour box in the `touching color`{:class="block3sensing"} block, then use the **eyedropper** to pick the main colour from your cake.
+
+![Using the eyedropper to pick the cake's colour.](images/eyedropper.gif)
 
 ```blocks3
 when green flag clicked

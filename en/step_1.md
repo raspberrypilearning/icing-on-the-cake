@@ -10,7 +10,7 @@ Make your own **cake-decorating simulator**! You will design a cake, then click 
 
 --- no-print ---
 
-Try out the finished project. Click the toppings and icing to decorate the cake. Turn your sound on 🔊
+Try out the finished project. Click the toppings to decorate the cake. Sound on 🔊
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1362331451/?autostart=false" frameborder="0"></iframe>

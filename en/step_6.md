@@ -28,4 +28,6 @@ switch costume to (strawberry v)
 
 **Test:** Click a chooser to pick a topping, then click on the cake to stamp it. You now have a working cake decorator!
 
+![The finished simple cake decorator.](images/finished-simple.png)
+
 

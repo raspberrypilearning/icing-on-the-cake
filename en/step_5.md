@@ -65,6 +65,8 @@ Move it to a different spot along the top and change the `broadcast ()`{:class="
 
 ![Duplicating a chooser to make another one.](images/duplicate-chooser.gif)
 
+![Your chooser buttons along the top of the stage.](images/chooser-row.png)
+
 --- /task ---
 
 --- task ---

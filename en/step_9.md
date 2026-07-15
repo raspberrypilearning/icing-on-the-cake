@@ -1,4 +1,4 @@
-## Challenge: a cake for every occasion
+## Challenge: more cakes
 --- challenge ---
 
 For a challenge, you can let players switch between different **cake types** — layered, wedding or cupcakes. 
