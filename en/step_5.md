@@ -63,15 +63,13 @@ To make a chooser for your other toppings, **duplicate** this sprite, and change
 
 Move it to a different spot along the top and change the `broadcast ()`{:class="block3events"} message to match.
 
-add gif of duplicate
+![Duplicating a chooser to make another one.](images/duplicate-chooser.gif)
 
 --- /task ---
 
 --- task ---
 
-new sprite - topping
-
-The topping follows curser, and blocks the button. Make it **hide** when it's up near the choosers so it doesn't block them.
+The topping follows the cursor and blocks the button. Make it **hide** when it's up near the choosers so it doesn't block them.
 
 Select the **toppings** sprite.
 
@@ -80,6 +78,8 @@ Select the **toppings** sprite.
 Add an `if then else`{:class="block3control"} block at the end of the `forever`{:class="block3control"} loop: if the `y position`{:class="block3motion"} is above `125`, it hides; otherwise it shows.
 
 ```blocks3
+when green flag clicked
+erase all
 forever
 go to (mouse-pointer v)
 if <mouse down?> then
@@ -98,4 +98,4 @@ end
 
 --- /task ---
 
-**Test:** Click the green flag.The topping hides, and you can click the buttons.
+**Test:** Click the green flag. The topping hides, and you can click the buttons.
