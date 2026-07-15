@@ -17,6 +17,10 @@ In the **Code** tab, add an `if then`{:class="block3control"} block to `mouse do
 Click the colour box in the `touching color`{:class="block3sensing"} block, then use the **eyedropper** to pick the main colour from your cake.
 
 ```blocks3
+when green flag clicked
+erase all
+forever
+go to (mouse-pointer v)
 if <mouse down?> then
 +if <touching color [#7d3a1f]?> then
 play sound (Pop v) until done
