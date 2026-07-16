@@ -11,30 +11,26 @@ Start by making a new button.
 
 **Duplicate** one of your button sprites and change its costume to make a small cake symbol.
 
-![A cake-type button with its own symbol.](images/sprite-type.png)
-
 --- /task ---
 
 --- task ---
 
-Move the button to a free spot along the top of the stage.
+Move the button to the top of the stage, and change the x and y.
 
 ```blocks3
 when green flag clicked
 go to x: (91) y: (149)
 ```
 
-![The cake-type button on the stage.](images/cake-button-stage.png)
-
 --- /task ---
 
 --- task ---
 
-Change the broadcast to a new `type` message.
+Change the broadcast to `type`.
 
 ```blocks3
 when this sprite clicked
-broadcast (type v)
++broadcast (type v)
 change y by (1)
 play sound (Crank v) until done
 change y by (-1)
@@ -44,11 +40,15 @@ change y by (-1)
 
 --- task ---
 
+Next, give the cake a new costume for each type of cake.
+
 Select the **cake** sprite.
 
 ![The cake sprite.](images/sprite-cake.png)
 
-Give the cake more costumes to switch between. In the **Costumes tab**, **duplicate** your cake costume and change it into different cakes. Keep the main colour the same so your toppings still stamp.
+In the **Costumes tab**, **duplicate** your cake costume and change it into different cakes. 
+
+**Tip:** Duplicating the costume keeps the colour of the cake the same so your toppings still stamp.
 
 ![Duplicating the cake costume and editing it into a different cake.](images/different-cakes.gif)
 
@@ -80,15 +80,19 @@ Add blocks so that when the cake receives the `type` message, it switches to the
 ```blocks3
 when I receive (type v)
 switch costume to (cake type)
-next costume
 erase all
+next costume
 go to x: (0) y: (0)
 stamp
 set [cake type v] to (costume [number v])
 ```
 
+**Tip:** Each time the button is clicked, the cake clears the stage, switches to the next cake, and stamps it — so a different cake shows each time.
+
 --- /task ---
 
-**Test:** Click the green flag, then click your cake-type button. The cake changes to the next one each time.
+**Test:** Click the green flag, then click your cake type button. Check that the cake changes to the next one each time.
+
+![Toggling through the cake types.](images/toggle-type.gif)
 
 --- save ---

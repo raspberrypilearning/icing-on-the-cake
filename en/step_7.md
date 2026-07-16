@@ -9,24 +9,25 @@ In this step, you'll make your **toppings** switch costume so clicking a button 
 In the **toppings** sprite add a `when I receive ()`{:class="block3events"} block that `switch costume to ()`{:class="block3looks"} the matching costume.
 
 ```blocks3
+when I receive (strawberry v)
+switch costume to (strawberry v)
+```
+--- /task ---
+
+
+--- task ---
+
+Do the same for each of your other toppings, matching every message to its costume.
+
+```blocks3
 when I receive (bow v)
 switch costume to (bow v)
 ```
 
 --- /task ---
 
---- task ---
-
-Add one of these blocks for every topping you made, matching each message to its costume.
-
-```blocks3
-when I receive (strawberry v)
-switch costume to (strawberry v)
-```
-
---- /task ---
-
 **Test:** Click a button to pick a topping, then click on the cake to stamp it. You now have a working cake decorator!
+
 
 ![The finished simple cake decorator.](images/finished-simple.gif)
 

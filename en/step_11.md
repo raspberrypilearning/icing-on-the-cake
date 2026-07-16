@@ -8,15 +8,15 @@ For a second challenge, switch between different **icing flavours** — like cho
 
 --- task ---
 
-Start by making an icing button by duplicating one of your buttons and give it its own costume. Then move it to the top of the stage.
+Make an icing button by **duplicating** one of your buttons and give it its own costume. Then move it to the top of the stage.
+
+![The icing button costume.](images/sprite-icing.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **code tab**. Change the `go to x: () y: ()`{:class="block3motion"} to the right position, and change the `broadcast ()`{:class="block3events"} to icing.
-
-![The icing chooser button costume.](images/sprite-icing.png)
+Click on the **code tab**. Change the `go to x: () y: ()`{:class="block3motion"} to the right position, and change the `broadcast ()`{:class="block3events"} to `icing`.
 
 --- /task ---
 
@@ -76,14 +76,14 @@ end
 
 --- task ---
 
-Add these blocks so the cake also changes cake type when its flavour is chocolate.
+Put your blocks for cake type into an if block. so the cake type also changes.
 
 ```blocks3
 when I receive (type v)
 switch costume to (cake type)
-if <(icing flavour) = [choc]> then
-next costume
++if <(icing flavour) = [choc]> then
 erase all
+next costume
 go to x: (0) y: (0)
 stamp
 set [cake type v] to (costume [number v])
@@ -102,15 +102,23 @@ Now **duplicate** the **choc cake** sprite for each new flavour and rename the c
 
 --- task ---
 
-In the **paint tab**, for each new cake, use the fill tool. Then in the **code tab** change `choc` to its own colour in both sets of blocks.
+In the **Costumes tab**, use the fill tool to recolour the cake for its new flavour — for example, make a lemon cake yellow.
 
 ![Recolouring a cake costume for a new icing colour.](images/recolour.gif)
+
+**Tip:** Fill every costume of the cake with the same colour, so your toppings still stamp on all of them.
+
+Then in the **code tab**, change `choc` to that cake's own flavour, like `mint` or `lemon`, in both sets of blocks.
 
 --- /task ---
 
 --- task ---
 
-Finally, on the **toppings** sprite, copy the `touching color`{:class="block3sensing"} check in its stamping blocks and add one for each new colour, so toppings stamp on every cake.
+Select the **toppings** sprite.
+
+![The toppings sprite.](images/sprite-toppings.png)
+
+Finally, duplicate the `touching color`{:class="block3sensing"} check and add the new lemon colour, so toppings stamp on the new cakes too. 
 
 ![Adding a touching-colour check for each cake colour.](images/icing-touching.gif)
 

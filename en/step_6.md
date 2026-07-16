@@ -1,18 +1,20 @@
 ## Add a button
 
-In this step, you'll make a button for each cake topping and place it at the top of the stage.
+In this step, you'll make a button for each cake topping.
 
 --- task ---
 
-Create a new sprite for the button. Paint it, or bring in a copy of your topping costume.
+![A strawberry topping costume, greyed out to look like a button.](images/sprite-strwabbutton.png)
 
-![A topping costume, greyed out to look like a button.](images/sprite-bowbutton.png)
+Create a new sprite. 
+
+Paint it, or bring in a copy of your topping costume. Resize and position the button near the top of the stage.
 
 --- /task ---
 
 --- task ---
 
-Click on the **code tab**. Resize and position the button near the top of the stage.
+Click on the **code tab** and add these blocks.
 
 ```blocks3
 when green flag clicked
@@ -27,7 +29,7 @@ Add a `broadcast`{:class="block3events"} message onto a `when this sprite clicke
 
 ```blocks3
 when this sprite clicked
-broadcast (bow v)
+broadcast (strawberry v)
 ```
 
 --- /task ---
@@ -40,7 +42,7 @@ Add the `change y by ()`{:class="block3motion"} and `play sound () until done`{:
 
 ```blocks3
 when this sprite clicked
-broadcast (bow v)
+broadcast (strawberry v)
 +change y by (1)
 +play sound (Crank v) until done
 +change y by (-1)
@@ -60,11 +62,11 @@ Move it to a different spot along the top and change the `broadcast ()`{:class="
 
 --- /task ---
 
---- task ---
-
 Your topping follows the cursor all over the stage, even up to the top. Make it **hide** when it's near the top, so it only shows over the cake.
 
-![The topping overlapping the buttons at the top.](images/button-overlap.png)
+![The topping hiding so it doesn't cover the buttons.](images/behind-button.gif)
+
+--- task ---
 
 Select the **toppings** sprite.
 
