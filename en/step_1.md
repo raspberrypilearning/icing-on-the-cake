@@ -1,6 +1,6 @@
 ## What you will make
 
-Make your own **cake-decorating simulator**! You will design a cake, then click toppings to decorate it however you like.
+Make your own **cake-decorating simulator**! You will design a cake, and toppings to decorate it however you like.
 
 --- print-only ---
 
@@ -10,7 +10,7 @@ Make your own **cake-decorating simulator**! You will design a cake, then click 
 
 --- no-print ---
 
-Try out the finished project. Click the toppings to decorate the cake. Sound on 🔊
+Try out the finished project. **Sound on 🔊**
 
 <div class="scratch-preview">
  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1362331451/?autostart=false" frameborder="0"></iframe>

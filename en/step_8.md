@@ -1,10 +1,10 @@
 ## Add music and a backdrop
 
-Add a **backdrop** behind your cake and some **music** that plays while the player decorates.
+Add a backdrop and some music that plays while you decorate the cake.
 
 --- task ---
 
-Click the **Stage** in the bottom-right, then **Choose a Backdrop** and pick one you like — or click **Paint** to make your own.
+Click the **Stage** in the bottom-right, then **Choose a Backdrop** and pick one you like, or you can **Paint** your own.
 
 ![Choosing a backdrop for the stage.](images/backdrop.png)
 
@@ -14,13 +14,13 @@ Click the **Stage** in the bottom-right, then **Choose a Backdrop** and pick one
 
 --- task ---
 
-Click the **Sounds** tab and add a piece of loop music you like from the sound library, or upload your own.
+Click the **Sounds tab** and add a piece of loop music you like from the sound library, or upload your own.
 
 --- /task ---
 
 --- task ---
 
-Go to the **Code** tab and add these blocks to the Stage so the music plays on a loop.
+Go to the **Code tab** and add these blocks to the **Stage** so the music plays on a loop.
 
 ```blocks3
 when green flag clicked

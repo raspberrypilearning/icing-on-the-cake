@@ -10,13 +10,15 @@ Start a [new Scratch project](https://scratch.mit.edu/projects/editor/){:target=
 
 --- task ---
 
-In the **costume tab**, delete the cat and create or choose your topping. A topping can be anything you like — sprinkles, a strawberry, a bow, or a candle. 
+In the **costume tab**, delete the cat and create your topping. You can use the paint tool or choose from the sprite library.
+
+A topping can be anything you like — sprinkles, a strawberry, a bow, or a candle. 
 
 --- /task ---
 
 --- task ---
 
-Name the sprite **toppings**, because later it will hold lots of different toppings.
+Name the sprite **toppings**, because later it will have lots of different toppings.
 
 ![Choosing a topping sprite in Scratch and renaming it to toppings.](images/choose-topping.png)
 
@@ -24,7 +26,7 @@ Name the sprite **toppings**, because later it will hold lots of different toppi
 
 --- task ---
 
-Make the sprite follow the cursor around the stage using a `go to (mouse pointer v)`{:class="block3motion"} block.
+Make the sprite follow the cursor using a `go to (mouse pointer)`{:class="block3motion"} block.
 
 ```blocks3
 when green flag clicked
@@ -37,13 +39,17 @@ end
 
 --- task ---
 
-Now make it stamp itself whenever you click the mouse.
+Now make it draw a topping when you click.
 
-To use the `stamp` block, click **Add Extension** in the bottom-left corner, then choose **Pen**.
+Find the `stamp` block by clicking the **Add Extension** in the bottom-left corner, then choose **Pen**.
 
 ![Adding the Pen extension.](images/pen-extension.gif)
 
-Add an `if then`{:class="block3control"} block inside the `forever`{:class="block3control"} loop that checks `mouse down?`{:class="block3sensing"} and then `stamp`s.
+--- /task ---
+
+--- task ---
+
+Add an `if then`{:class="block3control"} block inside the `forever`{:class="block3control"} loop that checks `mouse down?`{:class="block3sensing"} and then it `stamp`s.
 
 ```blocks3
 when green flag clicked
@@ -59,7 +65,7 @@ end
 
 --- task ---
 
-Clear the screen when you click the green flag.
+Add an `erase all` block to clear the screen.
 
 ```blocks3
 when green flag clicked
@@ -76,9 +82,9 @@ end
 
 --- task ---
 
-Add a `play sound () until done`{:class="block3sound"} block so it pops each time you stamp.
+Choose a sound for each time you add a topping from the sound library.
 
-Click the **Sounds** tab and choose a sound you think will work from the sound library.
+First add a new sound in the **Sounds tab**. Then add a `play sound until done`{:class="block3sound"} block and select your sound from the drop-down menu.
 
 ```blocks3
 when green flag clicked

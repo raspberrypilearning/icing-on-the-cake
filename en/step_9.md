@@ -1,91 +1,122 @@
-## Challenge: more cakes
---- challenge ---
+## Nice comments
 
-For a challenge, you can let players switch between different **cake types** — layered, wedding or cupcakes. 
-
---- /challenge ---
+In this step, you'll add pop-up comments that cheer the player on.
 
 --- task ---
 
-**Duplicate** one of your chooser button sprites and change its costume to make a small cake symbol.
+Add a new sprite for your comments.
 
-![A cake-type chooser button with its own symbol.](images/cake-type-button.png)
+![The comments sprite.](images/nice-comments.png)
+
+Make a costume for each message — you can type words like "So sweet!" or "Yum!", or use pictures.
+
+![Making costumes for the nice comments, one message per costume.](images/nice-comments.gif)
 
 --- /task ---
 
 --- task ---
 
-Move the button to a free spot along the top of the stage.
+Position the comment where you want it, and `hide`{:class="block3looks"}.
 
 ```blocks3
 when green flag clicked
-go to x: (91) y: (149)
-```
-
---- /task ---
-
---- task ---
-
-When it's clicked, broadcast a new `layer` message with the usual press animation.
-
-```blocks3
-when this sprite clicked
-broadcast (layer v)
-change y by (1)
-play sound (Crank v) until done
-change y by (-1)
-```
-
---- /task ---
-
---- task ---
-
-Select the **cake** sprite.
-
-![The cake sprite.](images/choose-cake.png)
-
-Now give the cake more costumes to switch between. In the **Costumes** tab, **duplicate** your cake costume and change it into different cakes. Keep the main colour the same so your toppings still stamp on them.
-
-![Duplicating the cake costume and editing it into a different cake.](images/different-cakes.gif)
-
---- /task ---
-
---- task ---
-
-Create a variable called `layer type`{:class="block3variables"} and **untick** it to hide it. It remembers which cake is showing.
-
---- /task ---
-
---- task ---
-
-On the **cake** sprite, set `layer type`{:class="block3variables"} to `1` at the start of its green-flag blocks.
-
-```blocks3
-when green flag clicked
-+set [layer type v] to (1)
 hide
-go to x: (0) y: (0)
-stamp
 ```
 
 --- /task ---
 
 --- task ---
 
-Add blocks so that when the cake receives the `layer` message, it switches to the next cake and stamps it.
+In the `Variable`{:class="block3variables"} menu, create a variable and name it `click count`{:class="block3variables"}.
 
 ```blocks3
-when I receive (layer v)
-switch costume to (layer type)
-next costume
-erase all
-go to x: (0) y: (0)
-stamp
-set [layer type v] to (costume [number v])
+when green flag clicked
+hide
++set [click count v] to (0)
 ```
 
 --- /task ---
 
-**Test:** Click the green flag, then click your cake-type button. The cake changes to the next one each time.
+--- task ---
 
---- save ---
+Add a `forever`{:class="block3control"} loop. If `click count`{:class="block3variables"} is more than a random number, it shows the comment for a couple of seconds, then hides it and resets the count.
+
+```blocks3
+when green flag clicked
+set [click count v] to (0)
+hide
++forever
+if <(click count) > (pick random (15) to (40))> then
+show
+wait (2) seconds
+set [click count v] to (0)
+hide
+end
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Add a `switch costume to ()`{:class="block3looks"} block so a random comment shows. Change the `4` in `pick random (1) to (4)`{:class="block3operators"} to match how many comment costumes you have made.
+
+```blocks3
+when green flag clicked
+set [click count v] to (0)
+hide
+forever
+if <(click count) > (pick random (20) to (50))> then
++switch costume to (pick random (1) to (4))
+show
+wait (2) seconds
+set [click count v] to (0)
+hide
+end
+end
+```
+
+--- /task ---
+
+
+--- task ---
+
+Add a `start sound ()`{:class="block3sound"} block, and choose a sound from the sound library.
+
+```blocks3
+when green flag clicked
+set [click count v] to (0)
+hide
+forever
+if <(click count) > (pick random (20) to (50))> then
+switch costume to (pick random (1) to (4))
+show
++start sound (Wand v)
+wait (2) seconds
+set [click count v] to (0)
+hide
+end
+end
+```
+
+--- /task ---
+
+--- task ---
+
+Select the **toppings** sprite.
+
+![The toppings sprite.](images/choose-topping.png)
+
+Add a `change () by ()`{:class="block3variables"} block so `click count`{:class="block3variables"} goes up by `1` each time a topping is stamped.
+
+```blocks3
+if <touching color [#7d3a1f]?> then
+play sound (Pop v) until done
+stamp
++change [click count v] by (1)
+end
+```
+
+--- /task ---
+
+**Test:** Click the green flag and decorate, and see nice comments pop up to cheer you on.

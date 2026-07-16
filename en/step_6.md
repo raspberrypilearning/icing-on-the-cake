@@ -1,33 +1,65 @@
-## Switch between toppings
+## Add a chooser button
 
-In this step, you'll make your **toppings** switch costume so clicking a chooser changes which topping you stamp.
+In this step, you'll make a button for each cake topping and place it at the top of the stage.
 
 --- task ---
 
-![The toppings sprite.](images/choose-topping.png)
+Create a new sprite for the chooser button. Paint it, or bring in a copy of your topping costume.
 
-In the **toppings** sprite add a `when I receive ()`{:class="block3events"} block that `switch costume to ()`{:class="block3looks"} the matching costume.
+![A topping chooser button costume, greyed out to look like a button.](images/chooser-costume.png)
+
+--- /task ---
+
+--- task ---
+
+Click on the **code tab**. Resize and position the chooser near the top of the stage so it's out of the decorating area.
 
 ```blocks3
-when I receive (bow v)
-switch costume to (bow v)
+when green flag clicked
+go to x: (-135) y: (154)
+```
+
+![Your first chooser button along the top of the stage.](images/chooser-row.png)
+--- /task ---
+
+--- task ---
+
+Add a `broadcast`{:class="block3events"} message onto a `when this sprite clicked`{:class="block3events"} block and name the new message to match your sprite.
+
+```blocks3
+when this sprite clicked
+broadcast (bow v)
 ```
 
 --- /task ---
 
 --- task ---
 
-Add one of these blocks for every topping you made, matching each message to its costume.
+Make the button feel like it is being clicked by moving it and adding sound.
+
+Add the `change y by ()`{:class="block3motion"} and `play sound () until done`{:class="block3sound"} blocks.
 
 ```blocks3
-when I receive (strawberry v)
-switch costume to (strawberry v)
+when this sprite clicked
+broadcast (bow v)
++change y by (1)
++play sound (Crank v) until done
++change y by (-1)
 ```
 
 --- /task ---
 
-**Test:** Click a chooser to pick a topping, then click on the cake to stamp it. You now have a working cake decorator!
+--- task ---
 
-![The finished simple cake decorator.](images/finished-simple.png)
+To make a chooser for your other toppings, **duplicate** this sprite, and change its costume to the matching topping.
+
+Move it to a different spot along the top and change the `broadcast ()`{:class="block3events"} message to match.
+
+![Duplicating a chooser to make another one.](images/duplicate-chooser.gif)
 
 
+--- /task ---
+
+
+
+**Test:** Click the green flag. The topping hides, and you can click the buttons.

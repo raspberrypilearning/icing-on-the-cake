@@ -10,10 +10,11 @@ steps:
       - engaged
   - title: Make a cake
   - title: Decorate the cake
+  - title: More toppings
   - title: Add a chooser button
   - title: Switch between toppings
-  - title: Nice comments
   - title: Add music and a backdrop
+  - title: Nice comments
     completion:
       - internal
   - title: 'Challenge: more cakes'

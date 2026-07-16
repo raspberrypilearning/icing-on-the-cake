@@ -1,119 +1,94 @@
-## Challenge: mix up the icing
-
+## Challenge: more cakes
 --- challenge ---
 
-For a second challenge, switch between different **icing flavours** — like chocolate, mint, and lemon.
+For a challenge, you can let players switch between different **cake types** — layered, wedding or cupcakes! 
 
 --- /challenge ---
 
 --- task ---
 
-Start by making an icing chooser button by duplicating one of your buttons and give it its own costume. Then move it to the top of the stage.
+Start by making a new button. 
+
+**Duplicate** one of your chooser button sprites and change its costume to make a small cake symbol.
+
+![A cake-type chooser button with its own symbol.](images/cake-type-button.png)
 
 --- /task ---
 
 --- task ---
 
-Click on the **code tab**. Change the `go to x: () y: ()`{:class="block3motion"} to the right position, and change the `broadcast ()`{:class="block3events"} to icing.
-
-![The icing chooser button costume.](images/icing-chooser.png)
-
---- /task ---
-
---- task ---
-
-Create two variables, `icing flavour`{:class="block3variables"} and `counter`{:class="block3variables"}. Set them up on the button's green flag.
+Move the button to a free spot along the top of the stage.
 
 ```blocks3
 when green flag clicked
-go to x: (166) y: (152)
-+set [counter v] to (0)
-+set [icing flavour v] to [choc]
+go to x: (91) y: (149)
 ```
+
+![The cake-type button on the stage.](images/cake-button-stage.png)
 
 --- /task ---
 
 --- task ---
 
-The `counter`{:class="block3variables"} changes the `icing flavour`{:class="block3variables"} each time.
+Change the broadcast to a new `type` message.
 
 ```blocks3
-when I receive (icing v)
-change [counter v] by (1)
-if <(counter) = (3)> then
-set [counter v] to (0)
-end
-if <(counter) = (0)> then
-set [icing flavour v] to [choc]
-end
-if <(counter) = (1)> then
-set [icing flavour v] to [mint]
-end
-if <(counter) = (2)> then
-set [icing flavour v] to [lemon]
-end
+when this sprite clicked
+broadcast (type v)
+change y by (1)
+play sound (Crank v) until done
+change y by (-1)
 ```
 
 --- /task ---
 
 --- task ---
+
+Select the **cake** sprite.
 
 ![The cake sprite.](images/choose-cake.png)
 
-Click on the **choc cake**, and in the code tab add these blocks so it re-stamps when the icing flavour is chocolate.
+Give the cake more costumes to switch between. In the **Costumes** tab, **duplicate** your cake costume and change it into different cakes. Keep the main colour the same so your toppings still stamp.
+
+![Duplicating the cake costume and editing it into a different cake.](images/different-cakes.gif)
+
+--- /task ---
+
+--- task ---
+
+Create a variable called `cake type`{:class="block3variables"} to remember which cake is showing.
+--- /task ---
+
+--- task ---
+
+On the **cake** sprite, set `cake type`{:class="block3variables"} to `1` at the start of its green-flag blocks.
 
 ```blocks3
-when I receive (icing v)
-switch costume to (layer type)
-if <(icing flavour) = [choc]> then
-erase all
+when green flag clicked
++set [cake type v] to (1)
+hide
 go to x: (0) y: (0)
 stamp
-end
 ```
 
 --- /task ---
 
 --- task ---
 
-Add these blocks so the cake also changes cake type when its flavour is chocolate.
+Add blocks so that when the cake receives the `type` message, it switches to the next costume and stamps it.
 
 ```blocks3
-when I receive (layer v)
-switch costume to (layer type)
-if <(icing flavour) = [choc]> then
+when I receive (type v)
+switch costume to (cake type)
 next costume
 erase all
 go to x: (0) y: (0)
 stamp
-set [layer type v] to (costume [number v])
-end
+set [cake type v] to (costume [number v])
 ```
 
 --- /task ---
 
---- task ---
-
-Now **duplicate** the **choc cake** sprite for each new flavour and rename the copies, like **mint cake** and **lemon cake**. The blocks come with them.
-
-![The three cakes with chocolate, mint, and lemon icing.](images/different-cakes.png)
-
---- /task ---
-
---- task ---
-
-In the **paint tab**, for each new cake, use the fill tool. Then in the **code tab** change `choc` to its own colour in both sets of blocks.
-
-![Recolouring a cake costume for a new icing colour.](images/recolour-cake.gif)
-
---- /task ---
-
---- task ---
-
-Finally, on the **toppings** sprite, copy the `touching color`{:class="block3sensing"} check in its stamping blocks and add one for each new colour, so toppings stamp on every cake.
-
---- /task ---
-
-**Test:** Click the green flag and switch the icing flavour.
+**Test:** Click the green flag, then click your cake-type button. The cake changes to the next one each time.
 
 --- save ---
