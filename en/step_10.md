@@ -9,9 +9,9 @@ For a challenge, you can let players switch between different **cake types** —
 
 Start by making a new button. 
 
-**Duplicate** one of your chooser button sprites and change its costume to make a small cake symbol.
+**Duplicate** one of your button sprites and change its costume to make a small cake symbol.
 
-![A cake-type chooser button with its own symbol.](images/cake-type-button.png)
+![A cake-type button with its own symbol.](images/sprite-type.png)
 
 --- /task ---
 
@@ -46,9 +46,9 @@ change y by (-1)
 
 Select the **cake** sprite.
 
-![The cake sprite.](images/choose-cake.png)
+![The cake sprite.](images/sprite-cake.png)
 
-Give the cake more costumes to switch between. In the **Costumes** tab, **duplicate** your cake costume and change it into different cakes. Keep the main colour the same so your toppings still stamp.
+Give the cake more costumes to switch between. In the **Costumes tab**, **duplicate** your cake costume and change it into different cakes. Keep the main colour the same so your toppings still stamp.
 
 ![Duplicating the cake costume and editing it into a different cake.](images/different-cakes.gif)
 

@@ -1,6 +1,6 @@
 title: Icing on the cake
 hero_image: images/banner.png
-description: Make a cake-decorating simulator in Scratch. Stamp toppings onto a cake, add a topping chooser and nice comments, then take on challenges to add different cake types and icing colours.
+description: Make a cake-decorating simulator in Scratch. Stamp toppings onto a cake, add topping buttons and nice comments, then take on challenges to add different cake types and icing colours.
 listed: false
 pdf: false
 steps:
@@ -11,7 +11,7 @@ steps:
   - title: Make a cake
   - title: Decorate the cake
   - title: More toppings
-  - title: Add a chooser button
+  - title: Add a button
   - title: Switch between toppings
   - title: Add music and a backdrop
   - title: Nice comments

@@ -1,10 +1,10 @@
 ## Switch between toppings
 
-In this step, you'll make your **toppings** switch costume so clicking a chooser changes which topping you stamp.
+In this step, you'll make your **toppings** switch costume so clicking a button changes which topping you stamp.
 
 --- task ---
 
-![The toppings sprite.](images/choose-topping.png)
+![The toppings sprite.](images/sprite-toppings.png)
 
 In the **toppings** sprite add a `when I receive ()`{:class="block3events"} block that `switch costume to ()`{:class="block3looks"} the matching costume.
 
@@ -26,8 +26,8 @@ switch costume to (strawberry v)
 
 --- /task ---
 
-**Test:** Click a chooser to pick a topping, then click on the cake to stamp it. You now have a working cake decorator!
+**Test:** Click a button to pick a topping, then click on the cake to stamp it. You now have a working cake decorator!
 
-![The finished simple cake decorator.](images/finished-simple.png)
+![The finished simple cake decorator.](images/finished-simple.gif)
 
 

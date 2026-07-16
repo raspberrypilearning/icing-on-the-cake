@@ -6,13 +6,13 @@ Right now your topping stamps anywhere you click. In this step, you'll make it s
 
 Select the **toppings** sprite.
 
-![The toppings sprite.](images/choose-topping.png)
+![The toppings sprite.](images/sprite-toppings.png)
 
 --- /task ---
 
 --- task ---
 
-In the **Code** tab, move the sound and stamp blocks into an `if then`{:class="block3control"} block.
+In the **Code tab**, move the sound and stamp blocks into an `if then`{:class="block3control"} block.
 
 ```blocks3
 when green flag clicked
@@ -32,7 +32,7 @@ end
 
 --- task ---
 
-Use the **eyedropper** to pick the main colour from your cake.
+Use the eyedropper to pick the colour from your cake.
 
 ![Using the eyedropper to pick the cake's colour.](images/eyedropper.gif)
 

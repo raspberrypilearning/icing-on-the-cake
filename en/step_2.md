@@ -20,7 +20,7 @@ A topping can be anything you like — sprinkles, a strawberry, a bow, or a cand
 
 Name the sprite **toppings**, because later it will have lots of different toppings.
 
-![Choosing a topping sprite in Scratch and renaming it to toppings.](images/choose-topping.png)
+![The toppings sprite.](images/sprite-toppings.png)
 
 --- /task ---
 

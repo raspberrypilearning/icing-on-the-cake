@@ -6,7 +6,7 @@ In this step, you'll add your **cake** sprite.
 
 Create a new sprite. In the **costume tab**, create your cake. A cake can be any shape or colour you like.
 
-![Choosing a cake sprite in Scratch.](images/choose-cake.png)
+![Choosing a cake sprite in Scratch.](images/sprite-cake.png)
 
 --- /task ---
 
