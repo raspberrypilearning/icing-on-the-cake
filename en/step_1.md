@@ -13,7 +13,7 @@ Make your own **cake-decorating simulator**! You will design a cake, and topping
 Try out the finished project. **Sound on 🔊**
 
 <div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1362331451/?autostart=false" frameborder="0"></iframe>
+ <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1363790609/?autostart=false" frameborder="0"></iframe>
 </div>
 
 --- /no-print ---

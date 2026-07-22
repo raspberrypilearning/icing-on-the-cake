@@ -1,11 +1,10 @@
-## Challenge: more cakes
---- challenge ---
+## More cakes
 
-For a challenge, you can let players switch between different **cake types** — layered, wedding or cupcakes! 
-
---- /challenge ---
+In this step, you'll let players switch between different **cake types**, like layered, wedding, or cupcake.
 
 --- task ---
+
+![The cake type button.](images/sprite-type.png)
 
 Start by making a new button. 
 
@@ -26,11 +25,11 @@ go to x: (91) y: (149)
 
 --- task ---
 
-Change the broadcast to `type`.
+Change the broadcast to `cake type`.
 
 ```blocks3
 when this sprite clicked
-+broadcast (type v)
++broadcast (cake type v)
 change y by (1)
 play sound (Crank v) until done
 change y by (-1)
@@ -38,36 +37,40 @@ change y by (-1)
 
 --- /task ---
 
---- task ---
+Next, make different types of cakes with new costumes.
 
-Next, give the cake a new costume for each type of cake.
+--- task ---
 
 Select the **cake** sprite.
 
 ![The cake sprite.](images/sprite-cake.png)
 
-In the **Costumes tab**, **duplicate** your cake costume and change it into different cakes. 
-
-**Tip:** Duplicating the costume keeps the colour of the cake the same so your toppings still stamp.
+In the **Costumes tab**, **duplicate** your first costume and use the paint tools to make a different cake. The example shows a layered cake. 
 
 ![Duplicating the cake costume and editing it into a different cake.](images/different-cakes.gif)
 
+**Tip:** Duplicating the costume keeps the colour of the cake the same so your toppings still stamp.
+
 --- /task ---
 
 --- task ---
 
-Create a variable called `cake type`{:class="block3variables"} to remember which cake is showing.
+Create a `variable`{:class="block3variables"} and name it **cake type**. This will remember which cake is showing.
+
+![Make a variable in Scratch.](images/make-a-variable.png)
+
 --- /task ---
 
 --- task ---
 
-On the **cake** sprite, set `cake type`{:class="block3variables"} to `1` at the start of its green-flag blocks.
+Set `cake type`{:class="block3variables"} to `1` at the start of the green flag block.
 
 ```blocks3
 when green flag clicked
 +set [cake type v] to (1)
+erase all
+go to x: (0) y: (-100)
 hide
-go to x: (0) y: (0)
 stamp
 ```
 
@@ -75,19 +78,14 @@ stamp
 
 --- task ---
 
-Add blocks so that when the cake receives the `type` message, it switches to the next costume and stamps it.
+Add a `when I receive`{:class="block3events"} block and choose the `cake type` message. Add the `next costume`{:class="block3looks"} so that it erases the current costume then stamps to the next.
 
 ```blocks3
-when I receive (type v)
-switch costume to (cake type)
+when I receive (cake type v)
 erase all
 next costume
-go to x: (0) y: (0)
 stamp
-set [cake type v] to (costume [number v])
 ```
-
-**Tip:** Each time the button is clicked, the cake clears the stage, switches to the next cake, and stamps it — so a different cake shows each time.
 
 --- /task ---
 

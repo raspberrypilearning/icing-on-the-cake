@@ -15,11 +15,10 @@ steps:
   - title: Switch between toppings
   - title: Add music and a backdrop
   - title: Nice comments
+  - title: More cakes
     completion:
       - internal
-  - title: 'Challenge: more cakes'
-    challenge: true
-  - title: 'Challenge: mix up the icing'
+  - title: 'Challenge: make it your own'
     challenge: true
     completion:
       - external

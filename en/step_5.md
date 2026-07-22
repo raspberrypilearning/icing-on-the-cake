@@ -8,6 +8,12 @@ In the **costume tab**, add a new costume for each topping and give the new cost
 
 ![Making a topping costume.](images/making-toppings.gif)
 
-Your **toppings** sprite now has more than one costume to stamp.
+--- /task ---
+
+--- task ---
+
+Change the size of each topping with the paint tools, so that they are the right fit for your cake.
 
 --- /task ---
+
+Your **toppings** sprite now has more than one costume to stamp.

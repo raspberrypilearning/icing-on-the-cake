@@ -4,44 +4,46 @@ In this step, you'll add your **cake** sprite.
 
 --- task ---
 
-Choose or paint a new sprite for your cake.
+Add a new sprite using the paint tools to draw your cake. Or you can add the cake sprite from the sprite library, and delete the candles  
 
-![Choosing a cake sprite in Scratch.](images/sprite-cake.png)
+![The cake sprite.](images/sprite-cake.png)
 
 --- /task ---
 
+--- task ---
+
+The topping will use the cake colour in a later step, so use the fill tool to recolour the cake using one main colour.
+
+--- /task ---
 
 --- task ---
 
-Name the sprite 'Cake' and position the cake where you want it on the stage.
+Position the cake at the bottom of the stage.
 
 ![Making the cake.](images/make-cake.gif)
 
---- /task ---
-
---- task ---
-
-Add a `go to x: y:`{:class="block3motion"} block with the x and y positions.
+Add a `go to x: y:`{:class="block3motion"} block and change the x and y to your position.
 
 ```blocks3
 when green flag clicked
-go to x: (0) y: (0)
+go to x: (0) y: (-100)
 ```
 
 --- /task ---
 
 --- task ---
 
-Add a `hide`{:class="block3looks"} block to hide the sprite, and use the `stamp` to draw it instead.
+Add a `hide`{:class="block3looks"} block to hide the sprite, then **stamp** to draw the cake.
+
+The **erase all** block clears all the stamps, so you can start again by clicking the `green flag`{:class="block3control"}.
 
 ```blocks3
 when green flag clicked
-go to x: (0) y: (0)
++erase all
+go to x: (0) y: (-100)
 +hide
 +stamp
 ```
-
-**Tip:** Stamping the cake allows the toppings to be drawn on top. If using a sprite, the toppings are drawn behind the cake and you can't see them.
 
 --- /task ---
 

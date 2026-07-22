@@ -39,14 +39,14 @@ hide
 
 --- task ---
 
-Add a `forever`{:class="block3control"} loop that keeps checking the counter. When `click counter`{:class="block3variables"} goes above `20`, the comment shows its next costume, waits a couple of seconds, then hides and resets the counter.
+Add a `forever`{:class="block3control"} loop that keeps checking the counter. When `click counter`{:class="block3variables"} goes above `19`, the comment shows its next costume, waits a couple of seconds, then hides and resets the counter.
 
 ```blocks3
 when green flag clicked
 set [click counter v] to (0)
 hide
 +forever
-if <(click counter) > (20)> then
+if <(click counter) > (19)> then
 next costume
 show
 wait (2) seconds
@@ -67,7 +67,7 @@ when green flag clicked
 set [click counter v] to (0)
 hide
 forever
-if <(click counter) > (20)> then
+if <(click counter) > (19)> then
 next costume
 show
 +start sound (Wand v)
