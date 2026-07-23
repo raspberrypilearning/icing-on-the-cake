@@ -38,7 +38,7 @@ In the box, delete "Sprite1" and type "Toppings".
 
 --- task ---
 
-Make the sprite follow the cursor using a `go to (mouse pointer)`{:class="block3motion"} block.
+Make the sprite follow the cursor using a `go to`{:class="block3motion"} block.
 
 ```blocks3
 when green flag clicked

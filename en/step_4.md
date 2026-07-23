@@ -12,7 +12,7 @@ Select the **toppings** sprite.
 
 --- task ---
 
-In the **Code tab**, move the `play sound () until done`{:class="block3sound"} and **stamp** blocks into an `if then`{:class="block3control"} block.
+In the **Code tab**, move the `play sound until done`{:class="block3sound"} and **stamp** blocks into an `if then`{:class="block3control"} block.
 
 ```blocks3
 when green flag clicked
@@ -32,7 +32,7 @@ end
 --- task ---
 
 
-Add a `touching colour` block into the empty `if then`{:class="block3control"}.
+Add a `touching color`{:class="block3sensing"} block into the empty `if then`{:class="block3control"}.
 
 ```blocks3
 when green flag clicked

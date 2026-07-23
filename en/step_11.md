@@ -28,6 +28,6 @@ Make a button that clears the cake with **erase all**, so you can start again.
 
 Add a button that changes the cake's colour, so players can switch between flavours like chocolate, mint, and lemon.
 
-**Tip:** If you change the icing colour, make sure your toppings' `touching colour` check still matches the new colour, so they keep stamping on the cake.
+**Tip:** If you change the icing colour, make sure your toppings' `touching color`{:class="block3sensing"} check still matches the new colour, so they keep stamping on the cake.
 
 --- /task ---
