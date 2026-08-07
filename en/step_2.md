@@ -10,7 +10,7 @@ Start a [new Scratch project](https://scratch.mit.edu/projects/editor/){:target=
 
 --- task ---
 
-Delete the cat sprite.
+Delete the cat sprite using the trashcan symbol.
 
 ![Deleting the cat sprite with the trashcan.](images/delete-cat.png)
 
@@ -32,7 +32,7 @@ Name the sprite **toppings**, because later it will have lots of different toppi
 
 In the box, delete "Sprite1" and type "Toppings".
 
-![Renaming the sprite to toppings.](images/rename-sprite.png)
+![Change the name of the sprite to "toppings".](images/rename-sprite.png)
 
 --- /task ---
 
@@ -81,7 +81,7 @@ end
 
 Choose a sound for each time you add a topping from the sound library.
 
-First add a new sound in the **Sounds tab**. Then add a `play sound until done`{:class="block3sound"} block and select your sound from the drop-down menu.
+First, add a new sound in the **Sounds tab**. Then add a `play sound until done`{:class="block3sound"} block and select your sound from the drop-down menu.
 
 ![The Sounds tab, where you add a new sound.](images/sounds-tab.png)
 
