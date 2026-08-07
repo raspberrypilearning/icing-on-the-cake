@@ -23,7 +23,7 @@ In the **costume tab**, make an icon for your button. You can paint it, or copy 
 
 Resize and position the button near the top of the stage.
 
-In the **code tab** add a `go to x: y:`{:class="block3motion"} block so the button starts in the same place each time. Your numbers should match wherever you placed the button.
+In the **code tab**, add a `go to x: y:`{:class="block3motion"} block so the button starts in the same place each time. Your numbers should match wherever you placed the button.
 
 ```blocks3
 when green flag clicked
@@ -69,7 +69,7 @@ If your sound is too long, you can cut it using the sound editing tools.
 
 --- /task ---
 
-**Test:** your buttons do not work yet because the topping is in the way. Make it **hide** when it's near the top.
+**Test:** Your buttons do not work yet because the topping is in the way. Make it **hide** when it's near the top.
 
 ![The topping hiding so it doesn't cover the buttons.](images/behind-button.gif)
 
