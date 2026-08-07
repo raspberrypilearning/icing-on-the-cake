@@ -4,7 +4,7 @@ In this step, you'll add your **cake** sprite.
 
 --- task ---
 
-Add a new sprite using the paint tools to draw your cake. Or you can add the cake sprite from the sprite library, and delete the candles  
+Add a new sprite using the paint tools to draw your cake. Or you can add the cake sprite from the sprite library, and delete the candles.  
 
 ![The cake sprite.](images/sprite-cake.png)
 
