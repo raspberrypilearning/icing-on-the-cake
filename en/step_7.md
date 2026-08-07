@@ -6,7 +6,7 @@ In this step, you'll make your **toppings** switch costume so clicking a button 
 
 ![The toppings sprite.](images/sprite-toppings.png)
 
-In the **toppings** sprite add a `when I receive`{:class="block3events"} block that `switch costume to`{:class="block3looks"} the matching costume.
+In the **toppings** sprite, add a `when I receive`{:class="block3events"} block. This will `switch costume to`{:class="block3looks"} the matching costume.
 
 ```blocks3
 when I receive (strawberry v)
