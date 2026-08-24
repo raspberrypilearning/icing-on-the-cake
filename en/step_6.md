@@ -2,11 +2,13 @@
 
 In this step, you'll make a button for one of the toppings.
 
+![A strawberry topping costume, greyed out to look like a button.](images/sprite-strwabbutton.png){:width="150px"}
+
 > [!TASK]
 >
-> ![A strawberry topping costume, greyed out to look like a button.](images/sprite-strwabbutton.png){:width="150px"}
->
 > Create a new sprite. 
+>
+> ![Painting a new sprite.](images/sprite-paint.png){:width="250px"}
 
 > [!TASK]
 >
@@ -15,9 +17,14 @@ In this step, you'll make a button for one of the toppings.
 >
 > ![A strawberry topping being copied in Scratch](images/button-make.gif){:width="450px"}
 
+
 > [!TASK]
 >
 > Resize and position the button near the top of the stage.
+>
+> ![A strawberry topping icon on Scratch](images/button-icon.png){:width="450px"}
+
+> [!TASK]
 >
 > In the **code tab**, add a `go to x: y:`{:class="block3motion"} block so the button starts in the same place each time. Your numbers should match wherever you placed the button.
 >
@@ -25,8 +32,7 @@ In this step, you'll make a button for one of the toppings.
 > when green flag clicked
 > go to x: (-135) y: (154)
 > ```
->
-> ![A strawberry topping icon on Scratch](images/button-icon.png){:width="450px"}
+
 
 > [!TASK]
 >
@@ -59,13 +65,15 @@ In this step, you'll make a button for one of the toppings.
 
 **Test:** Your buttons do not work yet because the topping is in the way. Make it **hide** when it's near the top.
 
-![The topping hiding so it doesn't cover the buttons.](images/behind-button.gif){:width="450px"}
+![The topping hiding so it doesn't cover the buttons.](images/behind-button.gif){:width="186px"}
 
 > [!TASK]
 >
 > Select the **toppings** sprite.
 >
 > ![The toppings sprite.](images/sprite-toppings.png){:width="150px"}
+
+> [!TASK]
 >
 > Add an `if then else`{:class="block3control"} block so that if the `y position`{:class="block3motion"} is above `125` it hides. Otherwise, it shows. 
 >

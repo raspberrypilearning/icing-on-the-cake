@@ -2,11 +2,13 @@
 
 Add a backdrop and some music that plays while you decorate the cake.
 
+![Choosing a backdrop for the stage.](images/backdrop.png){:width="250px"}
+
 > [!TASK]
 >
 > Click the **Stage** in the bottom-right, then **Choose a Backdrop** and pick one you like, or you can **Paint** your own.
 >
-> ![Choosing a backdrop for the stage.](images/backdrop.png){:width="450px"}
+> ![The Choose a Backdrop menu.](images/Choose_BackDrop.png){:width="250px"}
 
 > [!TIP]
 >
@@ -15,10 +17,18 @@ Add a backdrop and some music that plays while you decorate the cake.
 > [!TASK]
 >
 > Click the **Sounds tab** and add a piece of loop music you like from the sound library, or upload your own.
+>
+> ![The Stage's Sounds tab, for adding music.](images/stage-sound.png){:width="450px"}
 
 > [!TASK]
 >
-> Go to the **Code tab** and add these blocks to the **Stage** so the music plays on a loop.
+> Go to the **Code tab**.
+>
+> ![The Code tab.](images/tab_code.png){:width="450px"}
+
+> [!TASK]
+>
+> Add these blocks to the **Stage** so the music plays on a loop.
 >
 > ```blocks3
 > when green flag clicked

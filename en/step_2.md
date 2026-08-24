@@ -10,13 +10,13 @@ In this step, you'll make your first **topping**.
 >
 > Delete the cat sprite using the trashcan symbol.
 >
-> ![Deleting the cat sprite with the trashcan.](images/delete-cat.png){:width="450px"}
+> ![Deleting the cat sprite with the trashcan.](images/delete-cat.png){:width="200px"}
 
 > [!TASK]
 >
 > Add a new sprite for your topping. Hover over **Choose a Sprite** and pick **Paint** to draw your own, or choose one from the library.
 >
-> ![The Choose a Sprite menu.](images/choose-sprite.png){:width="450px"}
+> ![The Choose a Sprite menu.](images/choose-sprite.png){:width="250px"}
 >
 > A topping can be anything you like — sprinkles, a strawberry, a bow, or a candle. 
 
@@ -49,7 +49,7 @@ In this step, you'll make your first **topping**.
 
 > [!TASK]
 >
-> Add an `if then`{:class="block3control"} block inside the `forever`{:class="block3control"} loop that checks `mouse down?`{:class="block3sensing"} and then it **stamps**.
+> Add an `if then`{:class="block3control"} block inside the loop that checks `mouse down?`{:class="block3sensing"} and then it **stamps**.
 >
 > ```blocks3
 > when green flag clicked
@@ -67,10 +67,13 @@ In this step, you'll make your first **topping**.
 >
 > Choose a sound for each time you add a topping from the sound library.
 >
-> First, add a new sound in the **Sounds tab**. Then add a `play sound until done`{:class="block3sound"} block and select your sound from the drop-down menu.
+> First, add a new sound in the **Sounds tab**. 
 >
 > ![The Sounds tab, where you add a new sound.](images/sounds-tab.png){:width="450px"}
+
+> [!TASK]
 >
+> Then add a `play sound until done`{:class="block3sound"} block and select your sound from the drop-down menu.
 > ```blocks3
 > when green flag clicked
 > forever

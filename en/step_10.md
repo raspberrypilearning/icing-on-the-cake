@@ -2,13 +2,21 @@
 
 In this step, you'll let players switch between different **cake types**, like layered, wedding, or cupcake.
 
+![The cake type button.](images/sprite-type.png){:width="150px"}
+
 > [!TASK]
->
-> ![The cake type button.](images/sprite-type.png){:width="150px"}
 >
 > Start by making a new button. 
 >
-> **Duplicate** one of your button sprites and change its costume to make a small cake symbol.
+> **Duplicate** one of your button sprites.
+>
+> ![Duplicating a button and editing its costume into a cake symbol.](images/button-dup.png){:width="250px"}
+
+> [!TASK]
+>
+> In the costume tab. Change its costume to make a small cake symbol.
+>
+> ![The Costumes tab.](images/tab_costumes.png){:width="450px"}
 
 > [!TASK]
 >
@@ -21,7 +29,7 @@ In this step, you'll let players switch between different **cake types**, like l
 
 > [!TASK]
 >
-> Change the broadcast to `cake type`.
+> Change the broadcast to **cake type**.
 >
 > ```blocks3
 > when this sprite clicked
@@ -38,6 +46,8 @@ Next, make different types of cakes with new costumes.
 > Select the **cake** sprite.
 >
 > ![The cake sprite.](images/sprite-cake.png){:width="150px"}
+
+> [!TASK]
 >
 > In the **Costumes tab**, **duplicate** your first costume and use the paint tools to make a different cake. The example shows a layered cake. 
 >
@@ -68,7 +78,7 @@ Next, make different types of cakes with new costumes.
 
 > [!TASK]
 >
-> Add a `when I receive`{:class="block3events"} block and choose the `cake type` message. Add the `next costume`{:class="block3looks"} so that it erases the current costume then stamps to the next.
+> Add a `when I receive`{:class="block3events"} block and choose the **cake type** message. Add the `next costume`{:class="block3looks"} so that it erases the current costume then stamps to the next.
 >
 > ```blocks3
 > when I receive (cake type v)

@@ -2,11 +2,15 @@
 
 In this step, you'll add pop-up comments that cheer the player on.
 
+![The comments sprite.](images/sprite-comments.png){:width="150px"}
+
 > [!TASK]
 >
 > Add a new sprite for your comments.
 >
-> ![The comments sprite.](images/sprite-comments.png){:width="150px"}
+> ![Painting a new sprite.](images/sprite-paint.png){:width="250px"}
+
+> [!TASK]
 >
 > Make a costume for each message — you can type words like "So sweet!" or "Yum!", or use pictures. Position the comment where you want it to pop up.
 >
@@ -75,6 +79,8 @@ In this step, you'll add pop-up comments that cheer the player on.
 > Select the **toppings** sprite.
 >
 > ![The toppings sprite.](images/sprite-toppings.png){:width="150px"}
+
+> [!TASK]
 >
 > Add a `change () by ()`{:class="block3variables"} block so `click counter`{:class="block3variables"} goes up by `1` each time a topping is stamped.
 >

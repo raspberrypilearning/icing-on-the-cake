@@ -19,13 +19,18 @@ In this step, you'll make your **toppings** switch costume so clicking a button 
 >
 > Now make a button for each of your other toppings. **Duplicate** your button sprite, and make an icon by changing its costume.
 >
-> ![Duplicating a button sprite.](images/sprite-duplicate.png){:width="450px"}
+> ![Duplicating a button sprite.](images/sprite-duplicate.png){:width="250px"}
 
 > [!TASK]
 >
-> Move each button to a different position along the top, and change its `broadcast`{:class="block3events"} message to match the topping name. 
+> Move each button to a different position along the top.
 >
 > ![New button on the stage.](images/new-button.png){:width="450px"}
+
+
+> [!TASK]
+>
+> Change the `broadcast`{:class="block3events"} message to match the topping name. 
 
 > [!TASK]
 >
@@ -33,10 +38,7 @@ In this step, you'll make your **toppings** switch costume so clicking a button 
 >
 > Back on the **toppings** sprite, duplicate the `when I receive`{:class="block3events"} block for each of your new buttons, and match every message to its costume.
 >
-> ```blocks3
-> when I receive (bow v)
-> switch costume to (bow v)
-> ```
+> ![Duplicating the when I receive block for each button.](images/dup-receive.gif){:width="450px"}
 
 **Test:** Click the green flag and pick a topping, then click on the cake to stamp it. You now have a working cake decorator!
 

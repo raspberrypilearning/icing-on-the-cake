@@ -12,18 +12,7 @@ Right now your topping stamps anywhere you click. In this step, you'll make it s
 >
 > In the **Code tab**, move the `play sound until done`{:class="block3sound"} and `stamp`{:class="block3extensions"} blocks into an `if then`{:class="block3control"} block.
 >
-> ```blocks3
-> when green flag clicked
-> forever
-> go to (mouse-pointer v)
-> if <mouse down?> then
-> +if <> then
-> play sound (Pop v) until done
-> stamp
-> end
-> end
-> end
-> ```
+> ![Moving the blocks into the if block.](images/move-blocks.gif){:width="450px"}
 
 > [!TASK]
 >
@@ -44,13 +33,15 @@ Right now your topping stamps anywhere you click. In this step, you'll make it s
 
 > [!TASK]
 >
-> **Stop your project** by clicking the red hexegan.
->
-> ![The red stop button.](images/stop-button.png){:width="450px"}
->
 > Now use the eyedropper to pick the colour from your cake.
 >
 > ![Using the eyedropper to pick the cake's colour.](images/eyedropper.gif){:width="450px"}
+
+> [!TIP]
+>
+> **Stop your project** by clicking the red hexegan.
+>
+> ![The red stop button.](images/stop-button.png){:width="250px"}
 
 > [!TIP]
 >
