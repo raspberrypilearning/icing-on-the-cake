@@ -2,51 +2,45 @@
 
 In this step, you'll make your **toppings** switch costume so clicking a button changes which topping you stamp.
 
---- task ---
+> [!TASK]
+>
+> ![The toppings sprite.](images/sprite-toppings.png){:width="150px"}
+>
+> In the **toppings** sprite, add a `when I receive`{:class="block3events"} block. This will `switch costume to`{:class="block3looks"} the matching costume.
+>
+> ```blocks3
+> when I receive (strawberry v)
+> switch costume to (strawberry v)
+> ```
 
-![The toppings sprite.](images/sprite-toppings.png)
+> [!TASK]
+>
+> ![The toppings sprite.](images/sprite-bowbutton.png){:width="150px"}
+>
+> Now make a button for each of your other toppings. **Duplicate** your button sprite, and make an icon by changing its costume.
+>
+> ![Duplicating a button sprite.](images/sprite-duplicate.png){:width="250px"}
 
-In the **toppings** sprite, add a `when I receive`{:class="block3events"} block. This will `switch costume to`{:class="block3looks"} the matching costume.
+> [!TASK]
+>
+> Move each button to a different position along the top.
+>
+> ![New button on the stage.](images/new-button.png){:width="450px"}
 
-```blocks3
-when I receive (strawberry v)
-switch costume to (strawberry v)
-```
---- /task ---
 
---- task ---
+> [!TASK]
+>
+> Change the `broadcast`{:class="block3events"} message to match the topping name. 
 
-![The toppings sprite.](images/sprite-bowbutton.png)
-
-Now make a button for each of your other toppings. **Duplicate** your button sprite, and make an icon by changing its costume.
-
-![Duplicating a button sprite.](images/sprite-duplicate.png)
-
---- /task ---
-
---- task ---
-
-Move each button to a different position along the top, and change its `broadcast`{:class="block3events"} message to match the topping name. 
-
-![New button on the stage.](images/new-button.png)
-
---- /task ---
-
---- task ---
-
-![The toppings sprite.](images/sprite-toppings.png)
-
-Back on the **toppings** sprite, duplicate the `when I receive`{:class="block3events"} block for each of your new buttons, and match every message to its costume.
-
-```blocks3
-when I receive (bow v)
-switch costume to (bow v)
-```
-
---- /task ---
+> [!TASK]
+>
+> ![The toppings sprite.](images/sprite-toppings.png){:width="150px"}
+>
+> Back on the **toppings** sprite, duplicate the `when I receive`{:class="block3events"} block for each of your new buttons, and match every message to its costume.
+>
+> ![Duplicating the when I receive block for each button.](images/dup-receive.gif){:width="450px"}
 
 **Test:** Click the green flag and pick a topping, then click on the cake to stamp it. You now have a working cake decorator!
 
-![The finished simple cake decorator.](images/finished-simple.gif)
-
+![The finished simple cake decorator.](images/finished-simple.gif){:width="450px"}
 
