@@ -32,7 +32,7 @@ In questo passaggio, aggiungerai commenti pop-up che allietano e incoraggiano il
 > ```blocks3
 > when green flag clicked
 > hide
-> +set [click counter v] to (0)
+> +set [conteggio clic v] to (0)
 > ```
 
 > [!TASK]
@@ -41,14 +41,14 @@ In questo passaggio, aggiungerai commenti pop-up che allietano e incoraggiano il
 >
 > ```blocks3
 > when green flag clicked
-> set [click counter v] to (0)
+> set [conteggio clic v] to (0)
 > hide
 > +forever
-> if <(click counter) > (19)> then
+> if <(conteggio clic) > (19)> then
 > next costume
 > show
 > wait (2) seconds
-> set [click counter v] to (0)
+> set [conteggio clic v] to (0)
 > hide
 > end
 > end
@@ -60,15 +60,15 @@ In questo passaggio, aggiungerai commenti pop-up che allietano e incoraggiano il
 >
 > ```blocks3
 > when green flag clicked
-> set [click counter v] to (0)
+> set [conteggio clic v] to (0)
 > hide
 > forever
-> if <(click counter) > (19)> then
+> if <(conteggio clic) > (19)> then
 > next costume
 > show
 > +start sound (Wand v)
 > wait (2) seconds
-> set [click counter v] to (0)
+> set [conteggio clic v] to (0)
 > hide
 > end
 > end
@@ -85,11 +85,11 @@ In questo passaggio, aggiungerai commenti pop-up che allietano e incoraggiano il
 > Aggiungi un blocco `cambia () di ()`{:class="block3variables"} in modo che `conteggio click`{:class="block3variables"} aumenti di `1` ogni volta che viene stampata una decorazione.
 >
 > ```blocks3
-> se <touching color [#7d3a1f]?> allora
-> riproduci il suono (Pop v) e attendi la fine
-> timbra
-> +cambia [conteggio clic v] di (1)
-> fine
+> if <touching color [#7d3a1f]?> then
+> play sound (Pop v) until done
+> stamp
+> +change [conteggio click v] by (1)
+> end
 > ```
 
 **Test:** Clicca sulla bandierina verde, decora e vedrai comparire dei bei commenti di incoraggiamento.

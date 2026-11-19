@@ -9,8 +9,8 @@ In questo passaggio, farai cambiare costume ai tuoi **toppings** così, con un c
 > Nello sprite **toppings**, aggiungi un blocco `quando ricevo`{:class="block3events"}. Questo `passa al costume`{:class="block3looks"} corrispondente.
 >
 > ```blocks3
-> when I receive (strawberry v)
-> switch costume to (strawberry v)
+> when I receive (fragola v)
+> switch costume to (fragola v)
 > ```
 
 > [!TASK]

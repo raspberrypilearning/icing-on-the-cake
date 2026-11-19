@@ -33,7 +33,7 @@ In questa fase, permetterai ai giocatori di passare da un tipo di torta all'altr
 >
 > ```blocks3
 > when this sprite clicked
-> +broadcast (cake type v)
+> +broadcast (tipo torta v)
 > change y by (1)
 > play sound (Crank v) until done
 > change y by (-1)
@@ -69,7 +69,7 @@ Poi, prepara diversi tipi di torte con nuovi costumi.
 >
 > ```blocks3
 > when green flag clicked
-> +set [cake type v] to (1)
+> +set [tipo torta v] to (1)
 > erase all
 > go to x: (0) y: (-100)
 > hide
@@ -81,7 +81,7 @@ Poi, prepara diversi tipi di torte con nuovi costumi.
 > Aggiungi un blocco `quando ricevo`{:class="block3events"} e scegli il messaggio **tipo di torta**. Aggiungi il blocco pulisci e il blocco `passa al costume seguente`{:class="block3looks"} per fare in modo che sia cambiato il costume corrente e pulite tutte le stampe precedenti.
 >
 > ```blocks3
-> when I receive (cake type v)
+> when I receive (tipo torta v)
 > erase all
 > next costume
 > stamp

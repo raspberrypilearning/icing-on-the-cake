@@ -11,5 +11,5 @@ Crea il tuo **simulatore per la decorazione delle torte**! Progetterai una torta
 > Prova il progetto finito. **Attiva l'audio 🔊**
 >
 > <div class="scratch-preview">
->  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1363790609/?autostart=false" frameborder="0"></iframe>
+>  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/1442175829/?autostart=false" frameborder="0"></iframe>
 > </div>
