@@ -1,0 +1,24 @@
+title: Icing on the cake
+hero_image: images/banner.png
+description: Make a cake-decorating game in this Code Club arcade project.
+listed: true
+pdf: false
+steps:
+  - title: What you will make
+  - title: Make a topping
+    completion:
+      - engaged
+  - title: Make a cake
+  - title: Decorate the cake
+  - title: More toppings
+  - title: Add a button
+  - title: Switch between toppings
+  - title: Add music and a backdrop
+  - title: Nice comments
+  - title: More cakes
+    completion:
+      - internal
+  - title: 'Challenge: make it your own'
+    challenge: true
+    completion:
+      - external
