@@ -1,0 +1,24 @@
+title: Decoriamo la Torta
+hero_image: images/banner.png
+description: Realizza un gioco di decorazione di torte in questo progetto arcade di Code Club.
+listed: true
+pdf: false
+steps:
+  - title: Cosa creerai
+  - title: Crea un topping
+    completion:
+      - engaged
+  - title: Prepara una torta
+  - title: Decora la torta
+  - title: Altri topping
+  - title: Aggiungi un pulsante
+  - title: Cambia topping
+  - title: Aggiungi musica e uno sfondo
+  - title: Commenti affettuosi
+  - title: Altre torte
+    completion:
+      - internal
+  - title: 'Sfida: crea la tua!'
+    challenge: true
+    completion:
+      - external
