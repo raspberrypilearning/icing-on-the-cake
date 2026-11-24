@@ -1,0 +1,24 @@
+title: Glaçage sur le gâteau
+hero_image: images/banner.png
+description: Crée un jeu de décoration de gâteaux dans ce projet d'arcade Code Club.
+listed: true
+pdf: false
+steps:
+  - title: Ce que tu vas faire
+  - title: Faire une garniture
+    completion:
+      - engaged
+  - title: Faire un gâteau
+  - title: Décorer le gâteau
+  - title: Plus de garnitures
+  - title: Ajouter un bouton
+  - title: Basculer entre les garnitures
+  - title: Ajouter de la musique et un arrière-plan
+  - title: Beaux commentaires
+  - title: Plus de gâteaux
+    completion:
+      - internal
+  - title: 'Défi : personnaliser'
+    challenge: true
+    completion:
+      - external
