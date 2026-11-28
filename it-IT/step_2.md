@@ -35,7 +35,7 @@ In questa fase, preparerai il tuo primo **topping**.
 > ```blocks3
 > when green flag clicked
 > forever
-> go to (puntatore del mouse v)
+> go to (mouse-pointer v)
 > end
 > ```
 
@@ -54,7 +54,7 @@ In questa fase, preparerai il tuo primo **topping**.
 > ```blocks3
 > when green flag clicked
 > forever
-> go to (puntatore del mouse v)
+> go to (mouse-pointer v)
 > +if <mouse down?> then
 > stamp
 > end
@@ -78,7 +78,7 @@ In questa fase, preparerai il tuo primo **topping**.
 > ```blocks3
 > when green flag clicked
 > forever
-> go to (puntatore del mouse v)
+> go to (mouse-pointer v)
 > if <mouse down?> then
 > +play sound (Pop v) until done
 > stamp

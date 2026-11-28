@@ -1,0 +1,24 @@
+title: De kers op de taart
+hero_image: images/banner.png
+description: Maak een taartdecoratiespel in dit Code Club arcade-project.
+listed: true
+pdf: false
+steps:
+  - title: Wat ga je maken
+  - title: Maak een topping
+    completion:
+      - engaged
+  - title: Maak een taart
+  - title: Versier de taart
+  - title: Meer toppings
+  - title: Voeg een knop toe
+  - title: Wissel tussen de verschillende toppings
+  - title: Voeg muziek en een achtergrond toe
+  - title: Leuke reacties
+  - title: Meer taarten
+    completion:
+      - internal
+  - title: 'Uitdaging: maak het je eigen'
+    challenge: true
+    completion:
+      - external

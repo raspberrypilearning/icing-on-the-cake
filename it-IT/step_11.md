@@ -26,11 +26,3 @@
 >
 > Se cambi il colore della glassa, assicurati che il controllo `sta toccando il colore`{:class="block3sensing"} corrisponda ancora al nuovo colore, in modo che le stampe sulla torta funzionino ancora.
 
-***
-Questo progetto è stato tradotto da volontari:
-
-Fabrizio Tringali
-
-Pierangela Trovato
-
-Grazie ai volontari, possiamo offrire alle persone di tutto il mondo la possibilità di imparare nella loro lingua. Puoi aiutarci a raggiungere più persone offrendoti come volontario per la traduzione - puoi trovare maggiori informazioni su [rpf.io/translate](https://rpf.io/translate).

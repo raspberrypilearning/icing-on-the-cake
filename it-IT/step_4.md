@@ -21,7 +21,7 @@ In questo momento puoi aggiungere le tue stampe ovunque clicchi. In questo passa
 > ```blocks3
 > when green flag clicked
 > forever
-> go to (puntatore del mouse v)
+> go to (mouse-pointer v)
 > if <mouse down?> then
 > +if <touching color [#7d3a1f]?> then
 > play sound (Pop v) until done

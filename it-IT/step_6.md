@@ -37,7 +37,7 @@ In questo passaggio, farai un pulsante per uno dei topping.
 >
 > ```blocks3
 > when this sprite clicked
-> broadcast (fragola v)
+> broadcast (strawberry v)
 > ```
 
 > [!TASK]
@@ -48,7 +48,7 @@ In questo passaggio, farai un pulsante per uno dei topping.
 >
 > ```blocks3
 > when this sprite clicked
-> broadcast (fragola v)
+> broadcast (strawberry v)
 > +change y by (1)
 > +play sound (Crank v) until done
 > +change y by (-1)
@@ -77,14 +77,14 @@ In questo passaggio, farai un pulsante per uno dei topping.
 > ```blocks3
 > when green flag clicked
 > forever
-> go to (puntatore del mouse v)
+> go to (mouse-pointer v)
 > if <mouse down?> then
 > if <touching color [#7d3a1f]?> then
 > play sound (Pop v) until done
 > stamp
 > end
 > end
-> +if <(posizione y) > (125)> then
+> +if <(y position) > (125)> then
 > hide
 > else
 > show
